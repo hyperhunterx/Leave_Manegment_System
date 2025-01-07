@@ -1,0 +1,70 @@
+Employee ID,employee_name,month,uan,salary,basic salary,hra,conveyance,total earnings,Unpaid_Leave_Taken,compensatory pay,reimbursements,incentives,net pay,total deductions,amount,total_days_month,total_paid_days,in words,Comp_Pay_Taken,deductions
+6WR_01,Angela Khattar,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_03,Ravi Bhandari,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_05,Aanchal Kukreja,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_11,Nitesh Kumar,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_14,Kriti Shukla,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_31,Dhaval Chaurasia,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_44,Himani Garg,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_46,Swati Dhingra,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_63,Shubham Deep,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_65,Surya Kant,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_66,Vasudha Kaushik,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_67,Saurav Kumar Singh,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_70,Parth Taneja,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_83,Sumit Sagar,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_86,Sachin Kumar Rai,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_88,Subham Padhi,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_105,Vansh Vinarm Saxena,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_113,Harsha Bhatt,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_114,Prakhar Dixit,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_118,Sakshi Jain,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_125,Arshmeet Kaur,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_128,Yahya Aslam,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_134,Nihal Ubriani,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_138,Abhinav Sharma,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_141,Kapil Kumar Pal,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_147,Tanmay Vashishth,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_148,Sonali Gupta,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_154,Anjali Gupta,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_156,Vasu Joshi,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_157,Aashutosh Chauhan,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_158,Nisha,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_159,Mayank Kanojia,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_160,Kumod Sharma,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_166,Shivani Bansal,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_167,Priya,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_168,Khushi Uniyal,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_169,Manish Pant,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_172,Ayushi Bhardwaj,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_173,Nikhil Kala,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_175,Rishil Gupta,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_177,Mehak Gupta,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_181,Chhaya Gangwar,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_182,Muskan Mahajan,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_183,Sherry,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_184,Punima Pathnaik,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_185,Ishita Sahu,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_186,Jatin,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_188,Harleen Kaur,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_189,Ishu Dhani,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_191,Palak Jaiswal,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_192,Rahul Choudhary,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_193,Komal Agarwal,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_194,Kartik Barrot,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_195,Sahiba Kaur,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_196,Simarpreet Kaur,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_198,Anirudh Chaudhary,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_199,Ayushi Shukla,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_200,Itika Upadhyaya,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_211,Akshat Shukla,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_212,Parth Bhardwaj,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_213,Himanshu Saini,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_214,Purnima Sisodia,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_215,Sumon Dutta,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_216,Vipul Sahu,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_217,Bhawna Singh,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_218,Shakshi Pal,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_219,Lakshay Jain,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_203,Rajjat Kharbanda,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0
+6WR_204,Pankaj Khandelwal,2024-02,0,0,0,0,0,0,0,0,0,0,0,0,0,29,29,zero only.,0.0,0.0

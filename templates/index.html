@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="captcha.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="icon" href="static/6w_research_logo.jpg" type="image/x-icon">
+    <style>
+        body {
+            display: flex;
+            min-height: 100vh;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            margin: 0;
+            overflow: auto;
+        }
+        .logo {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .login-form {
+            width: 100%;
+            max-width: 700px;
+            padding: 30px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+            transition: transform 0.5s ease, opacity 0.5s ease;
+        }
+        .login-form input {
+            margin-bottom: 20px;
+            font-size: 1.6rem;
+        }
+        .login-form button {
+            width: 100%;
+            font-size: 1.6rem;
+        }
+        .login-form .form-group label {
+            font-size: 1.6rem;
+        }
+        .login-form .forgot-password {
+            font-size: 1.2rem;
+            display: block;
+            text-align: right;
+            margin-top: 10px;
+        }
+        .login-form.hide {
+            transform: scale(0.9);
+            opacity: 0;
+        }
+        #user-input {
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+        }
+        #user-input input {
+            margin-right: 10px;
+            font-size: 1.2rem;
+        }
+        #image {
+            margin-left: 10px;
+            font-size: 1.6rem;
+            font-weight: bold;
+            letter-spacing: 3px;
+        }
+        @media (max-width: 768px) {
+            .login-form {
+                padding: 20px;
+            }
+            .login-form input, .login-form button, .login-form .form-group label {
+                font-size: 1.4rem;
+            }
+            .login-form .forgot-password {
+                font-size: 1rem;
+            }
+            #user-input input {
+                font-size: 1rem;
+            }
+            #image {
+                font-size: 1.4rem;
+            }
+        }
+        @media (max-width: 576px) {
+            .login-form {
+                padding: 15px;
+            }
+            .login-form input, .login-form button, .login-form .form-group label {
+                font-size: 1.2rem;
+            }
+            .login-form .forgot-password {
+                font-size: 0.9rem;
+            }
+            #user-input input {
+                font-size: 0.9rem;
+            }
+            #image {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body onload="generateCaptcha()">
+    <div class="login-form" id="loginForm">
+        <img src="{{ url_for('static', filename='6w_research_logo.jpg') }}" alt="6Wresearch Logo" class="logo">
+        <form action="{{ url_for('login') }}" method="post">
+            <div class="form-group">
+                <label for="employee_id">Employee ID</label>
+                <input type="text" class="form-control" id="employee_id" name="employee_id" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" name="password" required>
+            </div>
+            <button type="submit" class="btn btn-primary" id="loginButton">Login</button>
+            <a href="#" class="forgot-password" data-toggle="modal" data-target="#forgotPasswordModal">Forgot Password?</a>
+        </form>
+        {% if error %}
+        <div class="alert alert-danger mt-3">{{ error }}</div>
+        {% endif %}
+    </div>
+
+    <!-- Forgot Password Modal -->
+    <div class="modal fade" id="forgotPasswordModal" tabindex="-1" role="dialog" aria-labelledby="forgotPasswordModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="forgotPasswordModalLabel">Forgot Password</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="{{ url_for('forgot_password') }}" method="post" id="forgotPasswordForm">
+                        <div class="form-group">
+                            <label for="forgot_employee_id">Employee ID</label>
+                            <input type="text" class="form-control" id="forgot_employee_id" name="employee_id" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="captcha_input">Captcha</label>
+                            <div id="captcha-container">
+                                <input type="text" class="form-control" id="captcha_input" name="captcha_input" placeholder="Captcha code" required>
+                                <div id="image" class="inline"></div>
+                                <div class="inline" onclick="generateCaptcha()">
+                                    <i class="fas fa-sync"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary" id="captchaButton">Send Email</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Success Modal -->
+    <div class="modal fade" id="successModal" tabindex="-1" role="dialog" aria-labelledby="successModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="successModalLabel">Success</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Verification link has been sent to your email.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function generateCaptcha() {
+            let captcha = document.getElementById('image');
+            let characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+            let captchaText = '';
+            for (let i = 0; i < 6; i++) {
+                captchaText += characters.charAt(Math.floor(Math.random() * characters.length));
+            }
+            captcha.innerText = captchaText;
+            document.getElementById('key').innerText = captchaText;
+        }
+
+        document.getElementById('loginButton').addEventListener('click', function(event) {
+            event.preventDefault();
+            document.getElementById('loginForm').classList.add('hide');
+            setTimeout(function() {
+                document.querySelector('form').submit();
+            }, 500);
+        });
+
+        document.getElementById('forgotPasswordForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            var employeeId = document.getElementById('forgot_employee_id').value;
+            var captchaInput = document.getElementById('captcha_input').value;
+            var captchaKey = document.getElementById('key').innerText;
+
+            // Validate that employee ID starts with '6WR_'
+            if (!employeeId.startsWith('6WR_')) {
+                alert('Employee ID must start with "6WR_".');
+                return;
+            }
+
+            // Validate captcha
+            if (captchaInput !== captchaKey) {
+                alert('Captcha code is incorrect.');
+                return;
+            }
+
+            var form = document.getElementById('forgotPasswordForm');
+            var formData = new FormData(form);
+
+            fetch(form.action, {
+                method: form.method,
+                body: formData
+            }).then(response => response.json()).then(data => {
+                if (data.message === 'Email sent') {
+                    $('#successModal').modal('show');
+                } else {
+                    alert(data.message);
+                }
+            }).catch(error => {
+                console.error('Error:', error);
+            });
+        });
+
+        // Disable zooming on touch devices
+        document.addEventListener('gesturestart', function (e) {
+            e.preventDefault();
+        });
+
+        document.addEventListener('gesturechange', function (e) {
+            e.preventDefault();
+        });
+
+        document.addEventListener('gestureend', function (e) {
+            e.preventDefault();
+        });
+
+        document.addEventListener('touchmove', function (e) {
+            if (e.scale !== 1) {
+                e.preventDefault();
+            }
+        }, { passive: false });
+        
+        // Prevent zooming using keyboard shortcuts
+        document.addEventListener('keydown', function (e) {
+            if ((e.ctrlKey || e.metaKey) && (e.key === '+' || e.key === '-' || e.key === '0')) {
+                e.preventDefault();
+            }
+        });
+
+        // Prevent zooming using mouse wheel with Ctrl key
+        document.addEventListener('wheel', function (e) {
+            if (e.ctrlKey) {
+                e.preventDefault();
+            }
+        }, { passive: false });
+
+        // Prevent double-tap zooming
+        var lastTouchEnd = 0;
+        document.addEventListener('touchend', function (e) {
+            var now = (new Date()).getTime();
+            if (now - lastTouchEnd <= 300) {
+                e.preventDefault();
+            }
+            lastTouchEnd = now;
+        }, false);
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Hidden element to store the captcha key -->
+    <p id="key" style="display:none;"></p>
+</body>
+</html>

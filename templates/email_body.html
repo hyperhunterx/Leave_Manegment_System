@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Template</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: white; margin: 0; padding: 0;">
+
+    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color: #f3f2f0; padding: 50px 0;">
+        <tr>
+            <td align="center">
+                <table role="presentation" width="600" cellspacing="0" cellpadding="0" border="0" style="background-color: #ffffff; padding: 20px; border-radius: 0; max-width: 600px;">
+                    <!-- Header -->
+                    <tr>
+                        <td align="center" style="background-color: #ffffff; padding: 20px;">
+                            <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                                <tr>
+                                    <td align="left" style="width: 150px;">
+                                    </td>                               
+                                    <td align="left" style="padding-left: 20px;">
+                                        <h3 style="margin: 0; color: black; font-size: 24px;">Leave Application</h3>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <!-- Content -->
+                    <tr>
+                        <td style="padding: 20px;">
+                            <p><strong>{{ employee_name }}</strong> has applied for leave:</p>
+                            <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                                <tr>
+                                    <td style="padding: 10px; background-color: #f9f9f9; border-radius: 5px;">
+                                        <strong>Type of Leave:</strong> {{ leave_type }}
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 10px; background-color: #f9f9f9; border-radius: 5px; margin-top: 10px;">
+                                        <strong>Leave Mode:</strong> {{ leave_mode }}
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 10px; background-color: #f9f9f9; border-radius: 5px; margin-top: 10px;">
+                                        <strong>Date:</strong> {{ start_date }} - {{ end_date }}
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 10px; background-color: #f9f9f9; border-radius: 5px; margin-top: 10px;">
+                                        <strong>Reason:</strong> {{ reason }} 
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <!-- Action Buttons -->
+                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="margin: 20px auto;">
+                                <tr>
+                                    <td align="center" style="background-color: #4CAF50; padding: 12px 24px; border-radius: 5px;">
+                                        <a href="{{ approve_link }}" style="color: white; text-decoration: none; font-size: 16px; display: inline-block;">Approve</a>
+                                    </td>
+                                    <td width="10"></td> <!-- Spacer between buttons -->
+                                    <td align="center" style="background-color: #f44336; padding: 12px 24px; border-radius: 5px;">
+                                        <a href="{{ deny_link }}" style="color: white; text-decoration: none; font-size: 16px; display: inline-block;">Deny</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <!-- Footer -->
+                    <tr>
+                        <td style="text-align: center; padding-top: 40px; font-size: 14px; color: #888888;">
+                            <p>Thank you,<br>6WResearch</p>
+                            <p>Curious about something? Just hit us up at <a href="mailto:people@6wresearch.com" style="color: #4CAF50; text-decoration: none;">people@6wresearch.com</a>.</p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>

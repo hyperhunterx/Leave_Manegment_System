@@ -1,0 +1,50 @@
+{
+    "Nitesh_Kumar_1_GLSM": {
+        "employee_id": "6WR_11",
+        "employee_name": "Nitesh Kumar",
+        "leave_type": "Casual Leave",
+        "leave_mode": "Full Day",
+        "start_date": "2024-11-14",
+        "end_date": "2024-11-14",
+        "reason": "kfbvkdfkfd",
+        "status": "Approved",
+        "date_of_apply": "2024-11-13",
+        "unpaid_leave_days": 0
+    },
+    "Nitesh_Kumar_2_SQHP": {
+        "employee_id": "6WR_11",
+        "employee_name": "Nitesh Kumar",
+        "leave_type": "Casual Leave",
+        "leave_mode": "Full Day",
+        "start_date": "2024-11-16",
+        "end_date": "2024-11-16",
+        "reason": "jjvgjgj",
+        "status": "Pending",
+        "date_of_apply": "2024-11-13",
+        "unpaid_leave_days": 0
+    },
+    "Nitesh_Kumar_3_PCS4": {
+        "employee_id": "6WR_11",
+        "employee_name": "Nitesh Kumar",
+        "leave_type": "Casual Leave",
+        "leave_mode": "Full Day",
+        "start_date": "2024-11-18",
+        "end_date": "2024-11-19",
+        "reason": "jjhhjvjhvj",
+        "status": "Pending",
+        "date_of_apply": "2024-11-13",
+        "unpaid_leave_days": 0
+    },
+    "Himani_Garg_1_KV6M": {
+        "employee_id": "6WR_44",
+        "employee_name": "Himani Garg",
+        "leave_type": "Casual Leave",
+        "leave_mode": "Full Day",
+        "start_date": "2024-11-29",
+        "end_date": "2024-11-30",
+        "reason": "tfugylhijilkm",
+        "status": "Pending",
+        "date_of_apply": "2024-11-28",
+        "unpaid_leave_days": 0
+    }
+}

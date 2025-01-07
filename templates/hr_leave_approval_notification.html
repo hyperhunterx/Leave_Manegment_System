@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leave Approval Notification</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: white; margin: 0; padding: 0;">
+    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color: #f3f2f0; padding: 50px 0;">
+        <tr>
+            <td align="center">
+                <table role="presentation" width="600" cellspacing="0" cellpadding="0" border="0" style="background-color: #ffffff; padding: 20px; border-radius: 0; max-width: 600px;">
+                    <tr>
+                        <td align="center" style="background-color: #ffffff; padding: 20px;">
+                            <h3 style="margin: 0; color: black; font-size: 24px;">Leave Approval Notification</h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 20px;">
+                            <p>Dear HR,</p>
+                            <p>The leave request for <strong>{{ employee_name }}</strong> has been approved.</p>
+                            <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                                <tr>
+                                    <td style="padding: 10px; background-color: #f9f9f9; border-radius: 5px;">
+                                        <strong>Employee Name:</strong> {{ employee_name }}
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 10px; background-color: #f9f9f9; border-radius: 5px;">
+                                        <strong>Leave Type:</strong> {{ leave_type }}
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 10px; background-color: #f9f9f9; border-radius: 5px;">
+                                        <strong>Leave Mode:</strong> {{ leave_mode }}
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 10px; background-color: #f9f9f9; border-radius: 5px;">
+                                        <strong>Start Date:</strong> {{ start_date }}
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 10px; background-color: #f9f9f9; border-radius: 5px;">
+                                        <strong>End Date:</strong> {{ end_date }}
+                                    </td>
+                                </tr>
+                            </table>
+                            <p>Best regards,<br>6WResearch Leave Management System</p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

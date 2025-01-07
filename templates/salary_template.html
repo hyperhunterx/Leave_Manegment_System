@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Salary Slip</title>
+  </head>
+  <body>
+    <table width="100%">
+      <tr>
+        <td align="right">
+          <img src=".././static/logo.png" alt="Company Logo" width="230" height="70" />
+        </td>
+      </tr>
+    </table>
+    <br>
+
+    <table align="center" width="100%">
+      <tr>
+        <td align="center" style="font-size: x-large; display: flex; flex-direction: column; gap: 0px;">
+          <p>6Wresearch</p>
+          <p>AN – 103 1st Floor, D-Mall,</p>
+          <p>Netaji Subhash Place Pitampura,</p>
+          <p>New Delhi-110034</p>
+          <p>Phone: +91-11-430-24-305</p>
+          <br><br>
+        </td>
+      </tr>
+      <tr>
+        <td align="center" style="font-size: x-large;">
+          <b>PAY SLIP FOR THE MONTH OF {{ Month }} 2024</b>
+        </td>
+      </tr>
+    </table>
+
+    <br />
+
+    <table align="center" width="80%" border="1" cellpadding="2" style="font-size: larger;">
+      <tr>
+        <td>Employee</td>
+        <td colspan="3">{{ Employee }}</td>
+      </tr>
+      <tr>
+        <td>DOJ</td>
+        <td>{{ DOJ }}</td>
+        <td>Designation</td>
+        <td>{{ Designation }}</td>
+      </tr>
+      <tr>
+        <td>Employee ID</td>
+        <td colspan="3">{{ Employee_ID }}</td>
+      </tr>
+      <tr>
+        <td>Department</td>
+        <td colspan="3">{{ Department }}</td>
+      </tr>
+      <tr>
+        <td>UAN No.</td>
+        <td colspan="3">{{ UAN }}</td>
+      </tr>
+      <tr>
+        <td>Salary</td>
+        <td>{{ Basic_Salary * 2}}</td>
+        <td>Leave Without Pay</td>
+        <td>{{ Leave_Without_Pay }}</td>
+      </tr>
+      <tr>
+        <td>Total Days</td>
+        <td>{{ Total_Days }}</td>
+        <td>Total Paid Days</td>
+        <td>{{ Total_Paid_Days }}</td>
+      </tr>
+    </table>
+
+    <br />
+
+    <table align="center" width="80%" border="1" cellpadding="2" style="font-size: larger;">
+      <tr height="5px">
+        <th>Earnings</th>
+        <th>Amount</th>
+        <th>Deductions</th>
+        <th>Amount</th>
+      </tr>
+      <tr>
+        <td>BASIC SALARY</td>
+        <td>{{ Basic_Salary }}</td>
+        <td rowspan="3">{{ Total_Deductions }}</td>
+        <td rowspan="3">{{ Amount }}</td>
+      </tr>
+      <tr>
+        <td>HRA</td>
+        <td>{{ HRA }}</td>
+      </tr>
+      <tr>
+        <td>CONVEYANCE</td>
+        <td>{{ Conveyance }}</td>
+      </tr>
+      <tr>
+        <td>Total Earnings</td>
+        <td>{{ Total_Earnings }}</td>
+        <td>Total Deductions</td>
+        <td>1800 + {{Total_Deductions}}</td>
+        
+      </tr>
+      <tr>
+        <td>Compensatory Pay</td>
+        <td colspan="3">{{ Compensatory_Pay }}</td>
+      </tr>
+      <tr>
+        <td>Reimbursements</td>
+        <td colspan="3">{{ Reimbursements }}</td>
+      </tr>
+      <tr>
+        <td>Incentives</td>
+        <td colspan="3">{{ Incentives }}</td>
+      </tr>
+      <tr>
+        <td>Net Pay</td>
+        <td colspan="3">{{ Net_Pay }}</td>
+      </tr>
+      <tr>
+        <td>In Words</td>
+        <td colspan="3">{{ In_Words }}</td>
+      </tr>
+    </table>
+
+    <br />
+
+    <table align="center" width="80%">
+      <tr>
+        <td align="left">
+          <p style="font-weight: bold;">
+            Computer Generated Pay Slip Does Not Require Signature
+            <br><br><br><br><br><br><br><br>
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          <p>6Wresearch & Database Services Pvt. Ltd.</p>
+          <p>AN – 103, 1st Floor. D Mall, Netaji Subhash Place, Pitampura, New Delhi-110034 | Tel: +91-11-43024305 | www.6wresearch.com </p>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

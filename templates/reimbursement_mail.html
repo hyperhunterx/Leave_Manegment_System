@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reimbursement Request</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 0; padding: 20px;">
+
+    <!-- Outer Container -->
+    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color: #f4f4f4; padding: 20px;">
+        <tr>
+            <td align="center">
+                <table role="presentation" width="600" cellspacing="0" cellpadding="0" border="0" style="background-color: #ffffff; padding: 20px; border-radius: 10px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); max-width: 600px;">
+
+                    <!-- Header with Logo and Title -->
+                    <tr>
+                        <td align="center" style="padding: 20px; background-color: #f3f2f0;">
+                            <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                                <tr>
+                                    <td align="left" style="width: 150px;">
+                                    </td>
+                                    <td align="left" style="padding-left: 20px;">
+                                        <h3 style="margin: 0; color: #333333;">Reimbursement Request</h3>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <!-- Body Content -->
+                    <tr>
+                        <td style="padding: 20px; color: #555555; line-height: 1.6;">
+                            <p><strong>{{ employee_name }}</strong> has applied for <strong>{{ reimbursement_type }}</strong>.</p>
+                            <p><strong>Reason:</strong> {{ reason }}</p>
+                            <p><strong>Amount:</strong> {{ amount }}</p>
+                            <p><strong>Number of Days:</strong> {{ num_days if reimbursement_type == 'Add Compensatory Off' else 'N/A' }}</p>
+                            <p><strong>Proof (if any):</strong> 
+                                <a href="{{ proof_url }}" target="_blank" style="color: #007bff; text-decoration: none;">{{ proof_filename }}</a>
+                            </p>
+                        </td>
+                    </tr>
+
+                    <!-- Action Buttons -->
+                    <tr>
+                        <td align="center" style="padding: 20px;">
+                            <table role="presentation" cellspacing="0" cellpadding="0" border="0">
+                                <tr>
+                                    <td align="center" style="background-color: #4CAF50; padding: 12px 24px; border-radius: 5px;">
+                                        <a href="{{ approve_link }}" style="color: white; text-decoration: none; font-size: 16px; display: inline-block;">Approve</a>
+                                    </td>
+                                    <td width="10"></td>
+                                    <td align="center" style="background-color: #f44336; padding: 12px 24px; border-radius: 5px;">
+                                        <a href="{{ deny_link }}" style="color: white; text-decoration: none; font-size: 16px; display: inline-block;">Deny</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

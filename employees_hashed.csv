@@ -1,0 +1,66 @@
+Employee ID,employee_name,doj,first_probation,second_probation,designation,department,employee_email,employee_password,manager_email,manager_password,role,team_members,profile_photo,uan,login_password,Normalized Employee ID
+6WR_01,Angela Khattar,29-01-2018,,,Manager,HR,angela@6wresearch.com,,rajjat@6wresearch.com,,director,6WR_44,default.jpg,,6WR_01_1990,1
+6WR_03,Ravi Bhandari,29-09-2014,,,Head,Research & Consulting,ravi@6wresearch.com,,rajjat@6wresearch.com,,manager,"6WR_03,6WR_31,6WR_63,6WR_65,6WR_66,6WR_67,6WR_70,6WR_83,6WR_86,6WR_88,6WR_114,6WR_141,6WR_154,6WR_156,6WR_157,6WR_158,6WR_172,6WR_173,6WR_175,6WR_177,6WR_188,6WR_189,6WR_191,6WR_194,6WR_195,6WR_196,6WR_198,6WR_199,6WR_200,6WR_212,6WR_213,6WR_214,6WR_215",default.jpg,,6WR_03_1990,3
+6WR_05,Aanchal Kukreja,06-08-2018,,,Senior Executive,Digital Marketing,aanchal.kukreja@6wresearch.com,,nitesh@6wresearch.com,,employee,,AANCHAL_KUKREJA.jpg,,6WR_05_1993,5
+6WR_11,Nitesh Kumar,12-08-2019,,,Manager,Digital Marketing,manish@6wresearch.com,,manish@6wresearch.com,,manager,"6WR_05,6WR_113,6WR_118,6WR_148,6WR_159,6WR_168,6WR_181",NITESH.jpg,,6WR_11_1996,11
+6WR_14,Kriti Shukla,04-11-2019,,,Vice President,Sales & Marketing,jainchist@gmail.com,,jainchist@gmail.com,,manager,"6WR_14,6WR_46,6WR_105,6WR_113,6WR_118,6WR_125,6WR_128,6WR_134,6WR_138,6WR_147,6WR_166,6WR_167,6WR_182,6WR_183,6WR_184,6WR_185,6WR_186,6WR_192,6WR_193,6WR_211",KRITI_SHUKLA.jpg,,6WR_14_1991,14
+6WR_31,Dhaval Chaurasia ,27-01-2021,,,Assistant Manager,Research & Consulting,dhaval@6wresearch.com,,ravi@6wresearch.com,,manager,"6WR_12345,6WR_32435345,6WR_343242342",DHAVAL.jpg,,6WR_31_1991,31
+6WR_44,Himani Garg,28-06-2021,,,Senior Executive,HR,rohitjain1570@gmail.com,,rohitjain1570@gmail.com,,director,,default.jpg,,6WR_44_1998,44
+6WR_46,Swati Dhingra,19-07-2021,,,Manager,Sales & Marketing,swati.dhingra@6wresearch.com,,kriti@6wresearch.com,,employee,,default.jpg,,6WR_46_1994,46
+6WR_63,Shubham Deep ,25-10-2021,,,Senior Analyst,Research & Consulting,shubham@6wresearch.com,,ravi@6wresearch.com,,employee,,SHUBHAM_DEEP.jpg,,6WR_63_1998,63
+6WR_65,Surya Kant,08-11-2021,,,Senior Analyst,Research & Consulting,suryakant@6wresearch.com,,ravi@6wresearch.com,,employee,,SURYA_KANT.jpg,,6WR_65_1997,65
+6WR_66,Vasudha Kaushik,08-11-2021,,,Senior Analyst,Research & Consulting,vasudha@6wresearch.com,,ravi@6wresearch.com,,employee,,VASUDHA.jpg,,6WR_66_1997,66
+6WR_67,Saurav Kumar Singh,08-11-2021,,,Analyst,Research & Consulting,saurav@6wresearch.com,,ravi@6wresearch.com,,employee,,default.jpg,,6WR_67_1997,67
+6WR_70,Parth Taneja ,13-12-2021,,,Senior Analyst,Research & Consulting,parth@6wresearch.com,,ravi@6wresearch.com,,employee,,default.jpg,,6WR_70_2001,70
+6WR_83,Sumit Sagar,06-04-2022,,,Senior Analyst,Research & Consulting,sumit@6wresearch.com,,ravi@6wresearch.com,,employee,,SUMIT_SAGAR.jpg,,6WR_83_1994,83
+6WR_86,Sachin Kumar Rai,18-04-2022,,,Senior Analyst,Research & Consulting,sachin@6wresearch.com,,ravi@6wresearch.com,,employee,,default.jpg,,6WR_86_1997,86
+6WR_88,Subham Padhi,25-04-2022,,,Analyst,Research & Consulting,subham@6wresearch.com,,ravi@6wresearch.com,,employee,,SUBHAM.jpg,,6WR_88_1996,88
+6WR_105,Vansh Vinarm Saxena,22-08-2022,,,Business Development Executive,Sales & Marketing,vansh@6wresearch.com,,kriti@6wresearch.com,,employee,,VANSH.jpg,,6WR_105_1999,105
+6WR_113,Harsha Bhatt,03-10-2022,,,Content Writer,Sales & Marketing,harsha@6wresearch.com,,nitesh@6wresearch.com,,employee,,HARSHA.jpg,,6WR_113_1997,113
+6WR_114,Prakhar Dixit,03-10-2022,,,Analyst,Research & Consulting,prakhar@6wresearch.com,,ravi@6wresearch.com,,employee,,default.jpg,,6WR_114_1995,114
+6WR_118,Sakshi Jain,04-10-2022,,,Content Writer,Sales & Marketing,sakshi@6wresearch.com,,nitesh@6wresearch.com,,employee,,SAKSHI_JAIN.jpg,,6WR_118_2000,118
+6WR_125,Arshmeet Kaur,23-11-2022,,,Senior Consultant,Sales & Marketing,arshmeet@6wresearch.com,,kriti@6wresearch.com,,employee,,ARSHMEET.jpg,,6WR_125_1999,125
+6WR_128,Yahya Aslam,05-12-2022,,,Business Development Executive,Sales & Marketing,yahya@6wresearch.com,,kriti@6wresearch.com,,employee,,YAHYA.jpg,,6WR_128_1997,128
+6WR_134,Nihal Ubriani,23-01-2023,,,Business Development Executive,Sales & Marketing,nihal@6wresearch.com,,kriti@6wresearch.com,,employee,,NIHAL.jpg,,6WR_134_1997,134
+6WR_138,Abhinav Sharma ,06-02-2023,,,Business Development Executive,Sales & Marketing,abhinav@6wresearch.com,,kriti@6wresearch.com,,employee,,ABHINAV.jpg,,6WR_138_1997,138
+6WR_141,Kapil Kumar Pal,14-02-2023,,,Associate,Research & Consulting,kapil@6wresearch.com,,ravi@6wresearch.com,,employee,,KAPIL_KUMAR.jpg,,6WR_141_1998,141
+6WR_147,Tanmay Vashishth,03-04-2023,,,Business Development Executive,Sales & Marketing,tanmay@6wresearch.com,,kriti@6wresearch.com,,employee,,TANMAY.jpg,,6WR_147_1998,147
+6WR_148,Sonali Gupta,03-04-2023,,,Content Writer,Digital Marketing,sonali@6wresearch.com,,nitesh@6wresearch.com,,employee,,SONALI.jpg,,6WR_148_1997,148
+6WR_154,Anjali Gupta,03-07-2023,,,Associate,Research & Consulting,anjali@6wresearch.com,,ravi@6wresearch.com,,employee,,default.jpg,,6WR_154_1998,154
+6WR_156,Vasu Joshi,24-07-2023,,,Primary Research Associate,Research & Consulting,vasu@6wresearch.com,,ravi@6wresearch.com,,employee,,VASU_JOSHI.jpg,,6WR_156_2003,156
+6WR_157,Aashutosh Chauhan,24-07-2023,,,Associate,Research & Consulting,aashutosh@6wresearch.com,,ravi@6wresearch.com,,employee,,default.jpg,,6WR_157_2002,157
+6WR_158,Nisha,01-08-2023,,,Associate,Research & Consulting,nisha@6wresearch.com,,ravi@6wresearch.com,,employee,,default.jpg,,6WR_158_2002,158
+6WR_159,Mayank Kanojia,16-08-2023,,,Executive,Digital Marketing,mayank@6wresearch.com,,nitesh@6wresearch.com,,employee,,MAYANK.jpg,,6WR_159_1999,159
+6WR_160,Kumod Sharma,04-09-2023,,,Data Analyst,Data Analytics,kumod@6wresearch.com,,ravi@6wresearch.com,,employee,,KUMOD.jpg,,6WR_160_1999,160
+6WR_166,Shivani Bansal,09-10-2023,,,Consultant,Sales & Marketing,shivani@6wresearch.com,,kriti@6wresearch.com,,employee,,SHIVANI_BANSAL.jpg,,6WR_166_1998,166
+6WR_167,Priya,09-10-2023,,,Consultant,Sales & Marketing,priya@6wresearch.com,,kriti@6wresearch.com,,employee,,PRIYA.jpg,,6WR_167_1999,167
+6WR_168,Khushi Uniyal,16-10-2023,,,Executive,Digital Marketing,khushi@6wresearch.com,,nitesh@6wresearch.com,,employee,,KHUSHI.jpg,,6WR_168_2002,168
+6WR_169,Manish Pant,25-10-2023,,,Data Scientist,Data Analytics,manish@6wresearch.com,,ravi@6wresearch.com,,director,,default.jpg,,xyz123,169
+6WR_172,Ayushi Bhardwaj,04-12-2023,,,Associate,Research & Consulting,ayushi@6wresearch.com,,ravi@6wresearch.com,,employee,,AYUSHI_BHARDWAJ.jpg,,6WR_172_2002,172
+6WR_173,Nikhil Kala,21-12-2023,,,Associate,Research & Consulting,nikhil.kala@6wresearch.com,,ravi@6wresearch.com,,employee,,default.jpg,,6WR_173_2001,173
+6WR_175,Rishil Gupta,02-01-2024,,,Associate,Research & Consulting,rishil@6wresearch.com,,ravi@6wresearch.com,,employee,,default.jpg,,6WR_175_2000,175
+6WR_177,Mehak Gupta,05-02-2024,,,Associate,Research & Consulting,mehak@6wresearch.com,,ravi@6wresearch.com,,employee,,default.jpg,,6WR_177_1996,177
+6WR_181,Chhaya Gangwar,26-02-2024,,,Executive,Digital Marketing,chhaya@6wresearch.com,,nitesh@6wresearch.com,,employee,,CHHAYA.jpg,,6WR_181_2001,181
+6WR_182,Muskan Mahajan,04-03-2024,,,Consultant,Sales & Marketing,muskan@6wresearch.com,,kriti@6wresearch.com,,employee,,MUSKAN.jpg,,6WR_182_2001,182
+6WR_183,Sherry ,04-03-2024,,,Consultant,Sales & Marketing,sherry@6wresearch.com,,kriti@6wresearch.com,,employee,,SHERRY.jpg,,6WR_183_1998,183
+6WR_184,Punima Pathnaik,04-03-2024,,,Consultant,Sales & Marketing,purnima@6wresearch.com,,kriti@6wresearch.com,,employee,,default.jpg,,6WR_184_2002,184
+6WR_185,Ishita Sahu,11-03-2024,,,Consultant,Sales & Marketing,ishita@6wresearch.com,,kriti@6wresearch.com,,employee,,ISHITA_SAHU.jpg,,6WR_185_2003,185
+6WR_186,Jatin,11-03-2024,,,Consultant,Sales & Marketing,jatin@6wresearch.com,,kriti@6wresearch.com,,employee,,JATIN .jpg,,6WR_186_2003,186
+6WR_188,Harleen Kaur,15-04-2024,,,Associate,Research & Consulting,harleen@6wresearch.com,,ravi@6wresearch.com,,employee,,HARLEEN_KAUR.jpg,,6WR_188_2002,188
+6WR_189,Ishu Dhani,21-04-2024,,,Associate,Research & Consulting,ishu@6wresearch.com,,ravi@6wresearch.com,,employee,,ISHU_DHANI.jpg,,6WR_189_2002,189
+6WR_191,Palak Jaiswal,02-05-2024,,,Associate,Research & Consulting,palak@6wresearch.com,,ravi@6wresearch.com,,employee,,default.jpg,,6WR_191_2002,191
+6WR_192,Rahul Choudhary,02-05-2024,,,Consultant,Sales & Marketing,rahul@6wresearch.com,,kriti@6wresearch.com,,employee,,RAHUL_CHOUDHARY.jpg,,6WR_192_1999,192
+6WR_193,Komal Agarwal,02-05-2024,,,Consultant,Sales & Marketing,komal@6wresearch.com,,kriti@6wresearch.com,,employee,,KOMAL_AGARWAK.jpg,,6WR_193_2000,193
+6WR_194,Kartik Barrot,06-05-2024,,,Associate,Research & Consulting,kartik@6wresearch.com,,ravi@6wresearch.com,,employee,,KARTIK_BARROT.jpg,,6WR_194_2000,194
+6WR_195,Sahiba Kaur,06-05-2024,,,Associate,Research & Consulting,sahiba@6wresearch.com,,ravi@6wresearch.com,,employee,,default.jpg,,6WR_195_1997,195
+6WR_196,Simarpreet Kaur,20-05-2024,,,Associate,Research & Consulting,simarpreet@6wresearch.com,,ravi@6wresearch.com,,employee,,ANUJ_MEHROTRA.jpg,,6WR_196_2003,196
+6WR_198,Anirudh Chaudhary,10-06-2024,,,Associate,Research & Consulting,anirudh@6wresearch.com,,ravi@6wresearch.com,,employee,,default.jpg,,6WR_198_2002,198
+6WR_199,Ayushi Shukla,12-06-2024,,,Associate,Research & Consulting,ayushi.shukla@6wresearch.com,,ravi@6wresearch.com,,employee,,AYUSHI_SHUKLA.jpg,,6WR_199_2001,199
+6WR_200,Itika Upadhyaya,12-06-2024,,,Associate,Research & Consulting,itika@6wresearch.com,,ravi@6wresearch.com,,employee,,Itika_Upadhyaya.jpg,,6WR_200_1998,200
+6WR_211,Akshat Shukla,24-06-2024,,,Consultant,Sales & Marketing,akshat@6wresearch.com,,kriti@6wresearch.com,,employee,,default.jpg,,6WR_211_1999,211
+6WR_212,Parth Bhardwaj,01-07-2024,,,Associate,Research & Consulting,parth.bhardwaj@6wresearch.com,,ravi@6wresearch.com,,employee,,default.jpg,,6WR_212_2003,212
+6WR_213,Himanshu Saini,01-07-2024,,,Associate,Research & Consulting,himanshu@6wresearch.com,,ravi@6wresearch.com,,employee,,default.jpg,,6WR_213_2000,213
+6WR_214,Purnima Sisodia,03-07-2024,,,Analyst,Research & Consulting,purnima.sisodia@6wresearch.com,,ravi@6wresearch.com,,employee,,default.jpg,,6WR_214_2000,214
+6WR_215,Sumon Dutta,22-07-2024,,,Assistant Manager,Research & Consulting,sumon@6wresearch.com,,ravi@6wresearch.com,,employee,,default.jpg,,6WR_215_1991,215
+6WR_203,Rajjat Kharbanda,22-07-2024,,,Assistant Manager,Research & Consulting,rajjat@6wresearch.com,,pankaj@6wresearch.com,,director,,default.jpg,,6WR_203_1234,203
+6WR_204,Pankaj Khandelwal,22-07-2024,,,Assistant Manager,Research & Consulting,pankaj@6wresearch.com,,rajjat@6wresearch.com,,director,,default.jpg,,6WR_204_1234,204

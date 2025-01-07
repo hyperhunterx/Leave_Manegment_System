@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply for Reimbursement</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="static/6w_research_logo.jpg" type="image/x-icon">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+            touch-action: none;
+            overflow: hidden;
+        }
+
+        .d-flex {
+            display: flex;
+            flex: 1;
+            position: relative;
+        }
+
+        .logo {
+            max-width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .sidebar {
+            background-color: #689db5;
+            padding: 15px;
+            color: white;
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            height: 100%;
+            width: 250px;
+            overflow-y: auto;
+            transition: transform 0.3s ease-in-out;
+            z-index: 3000;
+            transform: translateX(0);
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .sidebar.collapsed {
+            transform: translateX(-100%);
+        }
+
+        .sidebar a,
+        .dropdown-btn {
+            color: white;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            padding: 10px 15px;
+            font-size: 16px;
+            border-radius: 4px;
+            transition: background 0.3s ease, color 0.3s ease;
+            background: none;
+            border: none;
+            cursor: pointer;
+            outline: none;
+        }
+
+        .sidebar a:hover,
+        .dropdown-btn:hover {
+            background-color: #64696d;
+        }
+
+        .dropdown-container {
+            display: none;
+            background-color: #495057;
+            padding-left: 15px;
+            margin-top: 10px;
+            border-left: 2px solid #007bff;
+        }
+
+        .main-content {
+            flex: 1;
+            padding: 20px;
+            margin-left: 250px;
+            overflow-y: auto;
+            max-width: calc(100% - 250px);
+            z-index: 1000;
+            transition: margin-left 0.3s ease-in-out;
+        }
+
+        .main-content.mobile {
+            margin-left: 0;
+        }
+
+        .profile-menu {
+            position: fixed;
+            top: 15px;
+            right: 15px;
+            display: flex;
+            align-items: center;
+            background: white;
+            border-radius: 30px;
+            padding: 5px 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: background 0.3s ease;
+            z-index: 1000;
+        }
+
+        .profile-menu:hover {
+            background: #f1f1f1;
+        }
+
+        .dropdown-menu {
+            right: 0;
+            left: auto;
+        }
+
+        .user-info img {
+            border-radius: 50%;
+            margin-right: 10px;
+            width: 40px;
+            height: 40px;
+            object-fit: cover;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .user-info span {
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        .footer-text {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #f8f9fa;
+            width: 100%;
+            bottom: 1px;
+            z-index: 1000;
+            position: fixed;
+        }
+
+        .new-ticket-btn {
+            position: relative;
+            z-index: 1000;
+        }
+
+        .modal-dialog {
+            max-width: 800px;
+        }
+
+        .comp-off-options {
+            display: none;
+        }
+
+        .general-options {
+            display: block;
+        }
+
+        .total-boxes {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 30px;
+        }
+
+        .total-box {
+            flex: 1;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: white;
+            margin-right: 20px;
+            text-align: center;
+            font-size: 2rem;
+            color: #333;
+        }
+
+        .total-box:last-child {
+            margin-right: 0;
+        }
+
+        .total-box h5 {
+            margin-bottom: 10px;
+            font-weight: bold;
+            font-size: 2rem;
+        }
+
+        .total-box p {
+            font-size: 2rem;
+            font-weight: 600;
+        }
+
+        .main-content h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .table-filter {
+            margin-bottom: 20px;
+        }
+
+        .table {
+            width: 100%;
+            table-layout: auto;
+        }
+
+        .table th,
+        .table td {
+            text-align: center;
+        }
+
+        .total-box p {
+            font-size: 2rem;
+            font-weight: 700;
+            font-family: 'FontAwesome';
+        }
+
+        .new-ticket-btn {
+            margin-right: 10px;
+        }
+
+        .button-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            position: relative;
+        }
+
+        .date-filter-group {
+            display: flex;
+            align-items: center;
+        }
+
+        .date-filter-group label {
+            margin: 0 10px;
+        }
+
+        #date-from,
+        #date-to {
+            margin: 0 10px;
+        }
+
+        #apply-filter-btn {
+            margin-left: 10px;
+        }
+
+        .status-cell {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 1500;
+            display: none;
+        }
+
+        .overlay.active {
+            display: block;
+        }
+
+        @media (max-width: 768px) {
+            .main-content {
+                margin-left: 0;
+                padding-top: 60px;
+                max-width: 100%;
+            }
+
+            .sidebar {
+                transform: translateX(-100%);
+            }
+
+            .sidebar.collapsed {
+                transform: translateX(0);
+            }
+
+            .sidebar-toggle {
+                display: block;
+                position: fixed;
+                top: 15px;
+                left: 15px;
+                font-size: 1.5em;
+                color: rgba(19, 19, 228, 0.872);
+                cursor: pointer;
+                z-index: 3000;
+            }
+
+            .user-info span {
+                display: none;
+            }
+
+            .total-box p {
+                font-size: 1.5rem;
+            }
+        }
+
+        @media (min-width: 769px) {
+            .sidebar-toggle {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="d-flex">
+        <div class="sidebar" id="sidebar">
+            <img src="{{ url_for('static', filename='6w_research_logo.jpg') }}" alt="6Wresearch Logo" class="logo">
+            <a href="{{ url_for('welcome') }}"><i class="fas fa-home mr-2"></i>Home</a>
+            <a href="{{ url_for('apply') }}"><i class="fas fa-calendar-plus mr-2"></i>Apply for Leave</a>
+            <a href="{{ url_for('status') }}"><i class="fas fa-tasks mr-2"></i>Check Status of Leave</a>
+            <a href="{{ url_for('leave_balance') }}"><i class="fas fa-balance-scale mr-2"></i>Check Leave Balance</a>
+            <a href="{{ url_for('apply_reimbursement') }}"><i class="fas fa-hand-holding-usd mr-2"></i>Apply for Reimbursement</a>
+            {% if role == 'manager' or role == 'director' %}
+            <button class="dropdown-btn"><span class="mr-2"><i class="fas fa-users-cog mr-2"></i>Team Management</span>
+                <i class="fa fa-caret-down ml-auto"></i>
+            </button>
+            <div class="dropdown-container">
+                <a href="{{ url_for('team_leave_balance') }}"><i class="fas fa-users mr-2"></i>Team Leave Balance</a>
+                <a href="{{ url_for('team_leave_status') }}"><i class="fas fa-list-alt mr-2"></i>Team Leave Status</a>
+            </div>
+            {% endif %}
+            {% if role == 'hr' or role == 'director' %}
+            <button class="dropdown-btn"><span class="mr-2"><i class="fas fa-user-tie mr-2"></i>Manage Employees</span>
+                <i class="fa fa-caret-down ml-auto"></i>
+            </button>
+            <div class="dropdown-container">
+                <a href="{{ url_for('add_employee') }}"><i class="fas fa-user-plus mr-2"></i>Add Employee</a>
+                <a href="{{ url_for('delete_employee') }}"><i class="fas fa-user-minus mr-2"></i>Remove Employee</a>
+                <a href="{{ url_for('probation_employees') }}"><i class="fas fa-user-clock mr-2"></i>Manage Probation Employees</a>
+            </div>
+            {% endif %}
+        </div>
+        <div class="main-content custom-container desktop" id="main-content">
+            <div class="profile-menu">
+                <div class="dropdown">
+                    <a href="#" class="dropdown-toggle user-info" id="profileMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img src="{{ url_for('static', filename=profile_photo) }}" alt="User Profile" width="50" height="50">
+                        <span>{{ user_name }}</span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="profileMenuLink">
+                        <a class="dropdown-item" href="{{ url_for('holidays') }}" target="_blank"><i class="fas fa-umbrella-beach mr-2"></i>My Holidays</a>
+                        <a class="dropdown-item" href="{{ url_for('salary_slips') }}" target="_blank"><i class="fas fa-file-invoice-dollar mr-2"></i>Salary Slips</a>
+                        <a class="dropdown-item" href="{{ url_for('logout') }}" target="_blank"><i class="fas fa-sign-out-alt mr-2"></i>Logout</a>
+                    </div>
+                </div>
+            </div>
+            <h1 class="my-4">Applied Reimbursements</h1>
+            <div class="total-boxes">
+                <div class="total-box">
+                    <h5>Reimbursements</h5>
+                    <p>&#8377; {{ total_reimbursements_amount | default("0")}}</p>
+                </div>
+                <div class="total-box">
+                    <h5>Incentives</h5>
+                    <p>&#8377; {{ total_incentives_amount | default("0")}}</p>
+                </div>
+            </div>
+            <div class="button-container">
+                <button class="btn btn-primary new-ticket-btn" data-toggle="modal" data-target="#reimbursementModal">New Ticket</button>
+                <div class="form-group date-filter-group">
+                    <label for="date-from">From:</label>
+                    <input type="date" id="date-from" class="form-control date-filter">
+                    <label for="date-to">To:</label>
+                    <input type="date" id="date-to" class="form-control date-filter">
+                    <button id="apply-filter-btn" class="btn btn-secondary" style="width: 290px;">Apply Filter</button>
+                </div>
+            </div>
+            <table class="table table-bordered">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>Date Applied</th>
+                        <th>Reimbursement Type</th>
+                        <th>Reason</th>
+                        <th>Proof of Reimbursement</th>
+                        <th>Amount</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody id="reimbursement-table-body">
+                    {% for reimbursement in reimbursements %}
+                    <tr>
+                        <td>{{ reimbursement['date_of_apply'] }}</td>
+                        <td>{{ reimbursement['reimbursement_type'] }}</td>
+                        <td>{{ reimbursement['reason'] }}</td>
+                        <td>
+                            <a href="{{ url_for('static', filename='proofs/' ~ reimbursement['proof']) }}" target="_blank">View Proof</a>
+                        </td>
+                        <td>&#8377; {{ reimbursement['amount'] }}</td>
+                        <td class="status-cell">
+                            {% if reimbursement['status'] == 'Approved' %}
+                            <i class="fas fa-check-circle" style="color: green;"></i> Approved
+                            {% elif reimbursement['status'] == 'Denied' %}
+                            <i class="fas fa-times-circle" style="color: red;"></i> Denied
+                            {% elif reimbursement['status'] == 'Pending' %}
+                            <i class="fas fa-clock" style="color: orange;"></i> Pending
+                            {% else %}
+                            {{ reimbursement['status'] }}
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        <div class="overlay" id="overlay" onclick="toggleSidebar()"></div>
+    </div>
+    <div class="bottom-right-info">
+        <small>Last Login: {{ last_login }}</small><br>
+        <small>Today's Date: {{ today_date }}</small>
+    </div>
+    <div class="footer-text">
+        <p>&copy; 2024 <a href="https://www.6wresearch.com/" style="color:black;" target="_blank">6Wresearch and Database Services</a>. All rights reserved.</p>
+        <p>
+            <i class="fas fa-envelope"></i> :
+            <a href="mailto:people@6wresearch.com" style="color:black;">people@6wresearch.com</a>
+        </p>
+        <p>
+            Follow us:
+            <a href="https://www.facebook.com/6wresearch/" style="color:black;" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+            </a> |
+            <a href="https://www.twitter.com/6wresearch" style="color:black;" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a> |
+            <a href="https://in.linkedin.com/company/6w-research" style="color:black;" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </p>
+    </div>
+
+    <!-- Modal for New Reimbursement Ticket -->
+
+    <div class="modal fade" id="reimbursementModal" tabindex="-1" aria-labelledby="reimbursementModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="reimbursementModalLabel">New Reimbursement Ticket</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id="reimbursementForm" action="{{ url_for('apply_reimbursement') }}" method="post" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label for="reimbursement_type">Reimbursement Type</label>
+                            <select class="form-control" id="reimbursement_type" name="reimbursement_type" required>
+                                <option value="Incentive">Incentive</option>
+                                <option value="Reimbursement">Reimbursement</option>
+                                <option value="Add Compensatory Off">Add Compensatory Off</option>
+                            </select>
+                        </div>
+                        <div class="comp-off-options">
+                            <div class="form-group">
+                                <label for="num_days">Number of Days</label>
+                                <input type="number" class="form-control" id="num_days" name="num_days">
+                            </div>
+                        </div>
+                        <div class="general-options">
+                            <div class="form-group">
+                                <label for="proof">Proof of Reimbursement</label>
+                                <input type="file" class="form-control-file" id="proof" name="proof">
+                            </div>
+                            <div class="form-group">
+                                <label for="amount">Amount</label>
+                                <input type="number" class="form-control" id="amount" name="amount">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="reason">Reason</label>
+                            <textarea class="form-control" id="reason" name="reason" rows="3" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                    {% if error %}
+                    <div class="alert alert-danger mt-3">{{ error }}</div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+    <i class="fas fa-bars sidebar-toggle" onclick="toggleSidebar()"></i>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.dropdown-btn').click(function () {
+                $(this).toggleClass('active');
+                $(this).next('.dropdown-container').slideToggle();
+            });
+
+            $('.dropdown-toggle').dropdown();
+
+            $('#reimbursement_type').on('change', function() {
+                if ($(this).val() === 'Add Compensatory Off') {
+                    $('.comp-off-options').show();
+                    $('.general-options').hide();
+                    $('#proof').prop('required', false);
+                    $('#amount').prop('required', false);
+                } else {
+                    $('.comp-off-options').hide();
+                    $('.general-options').show();
+                    $('#proof').prop('required', true);
+                    $('#amount').prop('required', true);
+                }
+            });
+
+            // Reset the form when the modal is shown
+            $('#reimbursementModal').on('show.bs.modal', function() {
+                $('#reimbursementForm')[0].reset();
+                $('.comp-off-options').hide();
+                $('.general-options').show();
+                $('#proof').prop('required', true);
+                $('#amount').prop('required', true);
+            });
+
+            // Date filter functionality
+            $('#apply-filter-btn').on('click', function() {
+                var dateFrom = $('#date-from').val();
+                var dateTo = $('#date-to').val();
+
+                $('#reimbursement-table-body tr').each(function() {
+                    var dateApplied = $(this).find('td').eq(0).text();
+
+                    // Convert dates to Date objects for comparison
+                    var dateAppliedObj = new Date(dateApplied);
+                    var dateFromObj = dateFrom ? new Date(dateFrom) : null;
+                    var dateToObj = dateTo ? new Date(dateTo) : null;
+
+                    // Check if the row date is within the selected range
+                    var showRow = true;
+
+                    if (dateFromObj && dateToObj) {
+                        showRow = dateAppliedObj >= dateFromObj && dateAppliedObj <= dateToObj;
+                    } else if (dateFromObj) {
+                        showRow = dateAppliedObj >= dateFromObj;
+                    } else if (dateToObj) {
+                        showRow = dateAppliedObj <= dateToObj;
+                    }
+
+                    // Show or hide the row based on the date comparison
+                    if (showRow) {
+                        $(this).show();
+                    } else {
+                        $(this).hide();
+                    }
+                });
+            });
+
+            // Prevent zooming using keyboard shortcuts
+            document.addEventListener('keydown', function(e) {
+                if ((e.ctrlKey || e.metaKey) && (e.key === '+' || e.key === '-' || e.key === '0')) {
+                    e.preventDefault();
+                }
+            });
+
+            // Prevent zooming using mouse wheel with Ctrl key
+            document.addEventListener('wheel', function(e) {
+                if (e.ctrlKey) {
+                    e.preventDefault();
+                }
+            }, { passive: false });
+
+        });
+
+        function toggleSidebar() {
+            document.getElementById('sidebar').classList.toggle('collapsed');
+            document.getElementById('main-content').classList.toggle('mobile');
+            document.getElementById('overlay').classList.toggle('active');
+        }
+
+        document.getElementById('overlay').addEventListener('click', function() {
+            document.getElementById('sidebar').classList.remove('collapsed');
+            document.getElementById('main-content').classList.remove('mobile');
+            document.getElementById('overlay').classList.remove('active');
+        });
+    </script>
+</body>
+
+</html>

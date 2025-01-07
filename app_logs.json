@@ -1,0 +1,260 @@
+{"timestamp": "2024-11-13T10:17:39.962282", "levelname": "INFO", "message": "User 6WR_11 (Nitesh Kumar) accessed apply page.", "taskName": null}
+{"timestamp": "2024-11-13T10:17:43.009239", "levelname": "INFO", "message": "Function 'status' accessed by Nitesh Kumar (ID: 6WR_11, Role: manager) on 2024-11-13. Last login: 2024-11-13 10:15:47.", "taskName": null}
+{"timestamp": "2024-11-13T10:17:43.011242", "levelname": "INFO", "message": "Found 1 leave applications for Nitesh Kumar (ID: 6WR_11) after applying filters.", "taskName": null}
+{"timestamp": "2024-11-13T10:18:00.965247", "levelname": "INFO", "message": "Approve route accessed by Unknown (ID: None, Role: None) for application_id Nitesh_Kumar_1_GLSM at 2024-11-13 10:18:00.", "taskName": null}
+{"timestamp": "2024-11-13T10:18:00.965247", "levelname": "INFO", "message": "Application found for Nitesh_Kumar_1_GLSM. Approving leave.", "taskName": null}
+{"timestamp": "2024-11-13T10:18:00.996245", "levelname": "INFO", "message": "Leave application Nitesh_Kumar_1_GLSM for Nitesh Kumar approved by Unknown at 2024-11-13 10:18:00.", "taskName": null}
+{"timestamp": "2024-11-13T10:19:34.246344", "levelname": "INFO", "message": " * Restarting with stat", "taskName": null}
+{"timestamp": "2024-11-13T10:19:37.107796", "levelname": "WARNING", "message": " * Debugger is active!", "taskName": null}
+{"timestamp": "2024-11-13T10:19:37.109718", "levelname": "INFO", "message": " * Debugger PIN: 409-345-071", "taskName": null}
+{"timestamp": "2024-11-13T10:19:37.561171", "levelname": "INFO", "message": "Approve route accessed by Unknown (ID: None, Role: None) for application_id Nitesh_Kumar_1_GLSM at 2024-11-13 10:19:37.", "taskName": null}
+{"timestamp": "2024-11-13T10:19:37.562181", "levelname": "INFO", "message": "Application found for Nitesh_Kumar_1_GLSM. Approving leave.", "taskName": null}
+{"timestamp": "2024-11-13T10:21:25.631194", "levelname": "INFO", "message": "User 6WR_11 (Nitesh Kumar) accessed apply page.", "taskName": null}
+{"timestamp": "2024-11-13T10:21:33.557365", "levelname": "INFO", "message": "User 6WR_11 (Nitesh Kumar) accessed apply page.", "taskName": null}
+{"timestamp": "2024-11-13T10:21:33.557365", "levelname": "INFO", "message": "Processing leave application for user 6WR_11.", "taskName": null}
+{"timestamp": "2024-11-13T10:21:33.559368", "levelname": "INFO", "message": "Parsed dates - Start: 2024-11-14 00:00:00, End: 2024-11-15 00:00:00", "taskName": null}
+{"timestamp": "2024-11-13T10:21:33.560363", "levelname": "INFO", "message": "Loaded data for validation. Checking for overlapping leaves.", "taskName": null}
+{"timestamp": "2024-11-13T10:21:43.482163", "levelname": "INFO", "message": "User 6WR_11 (Nitesh Kumar) accessed apply page.", "taskName": null}
+{"timestamp": "2024-11-13T10:21:43.483212", "levelname": "INFO", "message": "Processing leave application for user 6WR_11.", "taskName": null}
+{"timestamp": "2024-11-13T10:21:43.484167", "levelname": "INFO", "message": "Parsed dates - Start: 2024-11-16 00:00:00, End: 2024-11-16 00:00:00", "taskName": null}
+{"timestamp": "2024-11-13T10:21:43.485164", "levelname": "INFO", "message": "Loaded data for validation. Checking for overlapping leaves.", "taskName": null}
+{"timestamp": "2024-11-13T10:21:43.508815", "levelname": "INFO", "message": "Saving leave application for 6WR_11.", "taskName": null}
+{"timestamp": "2024-11-13T10:21:44.314102", "levelname": "INFO", "message": "Email sent successfully.", "taskName": null}
+{"timestamp": "2024-11-13T10:22:59.041501", "levelname": "INFO", "message": " * Restarting with stat", "taskName": null}
+{"timestamp": "2024-11-13T10:23:01.759943", "levelname": "WARNING", "message": " * Debugger is active!", "taskName": null}
+{"timestamp": "2024-11-13T10:23:01.761945", "levelname": "INFO", "message": " * Debugger PIN: 409-345-071", "taskName": null}
+{"timestamp": "2024-11-13T10:23:08.843491", "levelname": "INFO", "message": "User 6WR_11 (Nitesh Kumar) accessed apply page.", "taskName": null}
+{"timestamp": "2024-11-13T10:23:18.294340", "levelname": "INFO", "message": "User 6WR_11 (Nitesh Kumar) accessed apply page.", "taskName": null}
+{"timestamp": "2024-11-13T10:23:18.294340", "levelname": "INFO", "message": "Processing leave application for user 6WR_11.", "taskName": null}
+{"timestamp": "2024-11-13T10:23:18.297329", "levelname": "INFO", "message": "Parsed dates - Start: 2024-11-18 00:00:00, End: 2024-11-19 00:00:00", "taskName": null}
+{"timestamp": "2024-11-13T10:23:18.298330", "levelname": "INFO", "message": "Loaded data for validation. Checking for overlapping leaves.", "taskName": null}
+{"timestamp": "2024-11-13T10:23:18.303327", "levelname": "INFO", "message": "Saving leave application for 6WR_11.", "taskName": null}
+{"timestamp": "2024-11-13T10:23:19.120313", "levelname": "INFO", "message": "Email sent successfully.", "taskName": null}
+{"timestamp": "2024-11-20T15:10:21.838156", "levelname": "INFO", "message": "\u001b[31m\u001b[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.\u001b[0m\n * Running on http://127.0.0.1:5000", "taskName": null}
+{"timestamp": "2024-11-20T15:10:21.838156", "levelname": "INFO", "message": "\u001b[33mPress CTRL+C to quit\u001b[0m", "taskName": null}
+{"timestamp": "2024-11-20T15:10:21.838156", "levelname": "INFO", "message": " * Restarting with stat", "taskName": null}
+{"timestamp": "2024-11-20T15:10:35.219260", "levelname": "INFO", "message": "\u001b[31m\u001b[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.\u001b[0m\n * Running on http://127.0.0.1:5000", "taskName": null}
+{"timestamp": "2024-11-20T15:10:35.219260", "levelname": "INFO", "message": "\u001b[33mPress CTRL+C to quit\u001b[0m", "taskName": null}
+{"timestamp": "2024-11-20T15:10:35.219260", "levelname": "INFO", "message": " * Restarting with stat", "taskName": null}
+{"timestamp": "2024-11-20T15:10:37.235720", "levelname": "WARNING", "message": " * Debugger is active!", "taskName": null}
+{"timestamp": "2024-11-20T15:10:37.235720", "levelname": "INFO", "message": " * Debugger PIN: 650-317-904", "taskName": null}
+{"timestamp": "2024-11-20T15:11:38.993119", "levelname": "INFO", "message": "\u001b[31m\u001b[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.\u001b[0m\n * Running on http://127.0.0.1:5000", "taskName": null}
+{"timestamp": "2024-11-20T15:11:38.993119", "levelname": "INFO", "message": "\u001b[33mPress CTRL+C to quit\u001b[0m", "taskName": null}
+{"timestamp": "2024-11-20T15:11:38.993119", "levelname": "INFO", "message": " * Restarting with stat", "taskName": null}
+{"timestamp": "2024-11-20T15:11:40.904108", "levelname": "WARNING", "message": " * Debugger is active!", "taskName": null}
+{"timestamp": "2024-11-20T15:11:40.919729", "levelname": "INFO", "message": " * Debugger PIN: 650-317-904", "taskName": null}
+{"timestamp": "2024-11-20T15:12:47.672988", "levelname": "INFO", "message": "\u001b[31m\u001b[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.\u001b[0m\n * Running on http://127.0.0.1:5000", "taskName": null}
+{"timestamp": "2024-11-20T15:12:47.672988", "levelname": "INFO", "message": "\u001b[33mPress CTRL+C to quit\u001b[0m", "taskName": null}
+{"timestamp": "2024-11-20T15:12:47.672988", "levelname": "INFO", "message": " * Restarting with stat", "taskName": null}
+{"timestamp": "2024-11-20T15:12:49.597286", "levelname": "WARNING", "message": " * Debugger is active!", "taskName": null}
+{"timestamp": "2024-11-20T15:12:49.597286", "levelname": "INFO", "message": " * Debugger PIN: 650-317-904", "taskName": null}
+{"timestamp": "2024-11-20T15:13:07.316701", "levelname": "INFO", "message": "\u001b[31m\u001b[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.\u001b[0m\n * Running on http://127.0.0.1:5000", "taskName": null}
+{"timestamp": "2024-11-20T15:13:07.316701", "levelname": "INFO", "message": "\u001b[33mPress CTRL+C to quit\u001b[0m", "taskName": null}
+{"timestamp": "2024-11-20T15:13:07.316701", "levelname": "INFO", "message": " * Restarting with stat", "taskName": null}
+{"timestamp": "2024-11-20T15:13:23.010534", "levelname": "INFO", "message": "\u001b[31m\u001b[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.\u001b[0m\n * Running on http://127.0.0.1:5000", "taskName": null}
+{"timestamp": "2024-11-20T15:13:23.010534", "levelname": "INFO", "message": "\u001b[33mPress CTRL+C to quit\u001b[0m", "taskName": null}
+{"timestamp": "2024-11-20T15:13:23.010534", "levelname": "INFO", "message": " * Restarting with stat", "taskName": null}
+{"timestamp": "2024-11-20T15:14:45.153617", "levelname": "INFO", "message": "\u001b[31m\u001b[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.\u001b[0m\n * Running on http://127.0.0.1:5000", "taskName": null}
+{"timestamp": "2024-11-20T15:14:45.153617", "levelname": "INFO", "message": "\u001b[33mPress CTRL+C to quit\u001b[0m", "taskName": null}
+{"timestamp": "2024-11-20T15:14:45.153617", "levelname": "INFO", "message": " * Restarting with stat", "taskName": null}
+{"timestamp": "2024-11-20T15:14:47.326305", "levelname": "WARNING", "message": " * Debugger is active!", "taskName": null}
+{"timestamp": "2024-11-20T15:14:47.326305", "levelname": "INFO", "message": " * Debugger PIN: 650-317-904", "taskName": null}
+{"timestamp": "2024-11-20T15:15:01.438569", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:15:01] \"\u001b[33mGET /login HTTP/1.1\u001b[0m\" 404 -", "taskName": null}
+{"timestamp": "2024-11-20T15:15:02.004331", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:15:02] \"\u001b[33mGET /favicon.ico HTTP/1.1\u001b[0m\" 404 -", "taskName": null}
+{"timestamp": "2024-11-20T15:15:07.983544", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:15:07] \"GET / HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:15:08.030403", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:15:08] \"\u001b[33mGET /captcha.css HTTP/1.1\u001b[0m\" 404 -", "taskName": null}
+{"timestamp": "2024-11-20T15:15:08.046025", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:15:08] \"GET /static/6w_research_logo.jpg HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:15:18.671796", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:15:18] \"\u001b[36mGET /static/6w_research_logo.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-20T15:15:21.355074", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:15:21] \"POST / HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:15:21.401940", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:15:21] \"\u001b[33mGET /captcha.css HTTP/1.1\u001b[0m\" 404 -", "taskName": null}
+{"timestamp": "2024-11-20T15:15:21.401940", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:15:21] \"\u001b[36mGET /static/6w_research_logo.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-20T15:15:34.665073", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:15:34] \"POST / HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:15:34.711928", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:15:34] \"\u001b[33mGET /captcha.css HTTP/1.1\u001b[0m\" 404 -", "taskName": null}
+{"timestamp": "2024-11-20T15:15:34.711928", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:15:34] \"\u001b[36mGET /static/6w_research_logo.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-20T15:15:34.806866", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:15:34] \"\u001b[36mGET /static/6w_research_logo.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-20T15:17:03.157079", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:17:03] \"\u001b[32mPOST / HTTP/1.1\u001b[0m\" 302 -", "taskName": null}
+{"timestamp": "2024-11-20T15:17:03.219583", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:17:03] \"GET /welcome HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:17:03.282050", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:17:03] \"\u001b[36mGET /static/6w_research_logo.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-20T15:17:03.297672", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:17:03] \"GET /static/profiles/default.jpg HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:17:14.838829", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:17:14] \"GET /welcome HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:17:14.901321", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:17:14] \"\u001b[36mGET /static/6w_research_logo.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-20T15:17:14.901321", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:17:14] \"\u001b[36mGET /static/profiles/default.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-20T15:17:19.814902", "levelname": "INFO", "message": "User 6WR_44 (Himani Garg) accessed apply page.", "taskName": null}
+{"timestamp": "2024-11-20T15:17:19.861806", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:17:19] \"GET /apply HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:17:19.908650", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:17:19] \"\u001b[36mGET /static/6w_research_logo.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-20T15:17:19.924374", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:17:19] \"\u001b[36mGET /static/profiles/default.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-20T15:17:26.216951", "levelname": "INFO", "message": "Function 'status' accessed by Himani Garg (ID: 6WR_44, Role: director) on 2024-11-20. Last login: 2024-11-20 15:17:03.", "taskName": null}
+{"timestamp": "2024-11-20T15:17:26.232574", "levelname": "INFO", "message": "Found 0 leave applications for Himani Garg (ID: 6WR_44) after applying filters.", "taskName": null}
+{"timestamp": "2024-11-20T15:17:26.263813", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:17:26] \"GET /status HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:17:26.326337", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:17:26] \"\u001b[36mGET /static/6w_research_logo.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-20T15:17:26.326337", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:17:26] \"\u001b[36mGET /static/profiles/default.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-20T15:17:30.875161", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:17:30] \"GET /leave_balance HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:17:30.937664", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:17:30] \"\u001b[36mGET /static/6w_research_logo.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-20T15:17:30.937664", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:17:30] \"\u001b[36mGET /static/profiles/default.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-20T15:17:39.465867", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:17:39] \"GET /apply_reimbursement HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:17:39.528324", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:17:39] \"\u001b[36mGET /static/6w_research_logo.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-20T15:17:39.528324", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:17:39] \"\u001b[36mGET /static/profiles/default.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-20T15:17:45.767293", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:17:45] \"GET /team_leave_balance HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:17:45.829922", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:17:45] \"\u001b[36mGET /static/6w_research_logo.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-20T15:17:45.829922", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:17:45] \"\u001b[36mGET /static/profiles/default.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-20T15:17:51.589090", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:17:51] \"GET /team_leave_status HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:17:51.667191", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:17:51] \"\u001b[36mGET /static/6w_research_logo.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-20T15:17:51.667191", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:17:51] \"\u001b[36mGET /static/profiles/default.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-20T15:17:54.363682", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:17:54] \"GET /add_employee HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:00.007694", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:00] \"GET /delete_employee HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:00.101848", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:00] \"\u001b[36mGET /static/profiles/default.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:00.133336", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:00] \"GET /static/profiles/NITESH.jpg HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:00.133336", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:00] \"GET /static/profiles/AANCHAL_KUKREJA.jpg HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:00.133336", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:00] \"GET /static/profiles/KRITI_SHUKLA.jpg HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:00.148957", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:00] \"GET /static/profiles/SHUBHAM_DEEP.jpg HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:00.148957", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:00] \"GET /static/profiles/SURYA_KANT.jpg HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:00.148957", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:00] \"GET /static/profiles/DHAVAL.jpg HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:00.227967", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:00] \"GET /static/profiles/VASUDHA.jpg HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:00.243585", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:00] \"GET /static/profiles/SUMIT_SAGAR.jpg HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:00.259212", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:00] \"GET /static/profiles/SUBHAM.jpg HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:00.275274", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:00] \"GET /static/profiles/HARSHA.jpg HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:00.290905", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:00] \"GET /static/profiles/VANSH.jpg HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:00.290905", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:00] \"GET /static/profiles/SAKSHI_JAIN.jpg HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:00.322710", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:00] \"GET /static/profiles/ARSHMEET.jpg HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:00.338801", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:00] \"GET /static/profiles/YAHYA.jpg HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:00.338801", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:00] \"GET /static/profiles/NIHAL.jpg HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:00.386426", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:00] \"\u001b[33mGET /static/profiles/VASU_JOSHI.jpg HTTP/1.1\u001b[0m\" 404 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:00.402457", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:00] \"GET /static/profiles/ABHINAV.jpg HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:00.402457", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:00] \"GET /static/profiles/KAPIL_KUMAR.jpg HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:00.402457", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:00] \"GET /static/profiles/SONALI.jpg HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:00.418533", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:00] \"GET /static/profiles/TANMAY.jpg HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:00.434525", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:00] \"GET /static/profiles/MAYANK.jpg HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:00.434525", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:00] \"\u001b[33mGET /static/profiles/SHIVANI_BANSAL.jpg HTTP/1.1\u001b[0m\" 404 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:00.434525", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:00] \"GET /static/profiles/KUMOD.jpg HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:00.450276", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:00] \"\u001b[33mGET /static/profiles/PRIYA.jpg HTTP/1.1\u001b[0m\" 404 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:00.465961", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:00] \"GET /static/profiles/KHUSHI.jpg HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:00.481636", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:00] \"\u001b[33mGET /static/profiles/MUSKAN.jpg HTTP/1.1\u001b[0m\" 404 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:00.497487", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:00] \"GET /static/profiles/CHHAYA.jpg HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:00.497487", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:00] \"GET /static/profiles/AYUSHI_BHARDWAJ.jpg HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:00.513154", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:00] \"GET /static/profiles/ISHITA_SAHU.jpg HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:00.513154", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:00] \"GET /static/profiles/SHERRY.jpg HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:00.528929", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:00] \"GET /static/profiles/HARLEEN_KAUR.jpg HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:00.528929", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:00] \"GET /static/profiles/JATIN%20.jpg HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:00.544631", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:00] \"GET /static/profiles/ISHU_DHANI.jpg HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:00.560538", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:00] \"GET /static/profiles/RAHUL_CHOUDHARY.jpg HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:00.560538", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:00] \"GET /static/profiles/KOMAL_AGARWAK.jpg HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:00.576634", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:00] \"GET /static/profiles/KARTIK_BARROT.jpg HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:00.576634", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:00] \"GET /static/profiles/ANUJ_MEHROTRA.jpg HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:00.608343", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:00] \"GET /static/profiles/AYUSHI_SHUKLA.jpg HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:00.608343", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:00] \"GET /static/profiles/Itika_Upadhyaya.jpg HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:10.408498", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:10] \"GET /probation_employees HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:14.189185", "levelname": "INFO", "message": "User 6WR_44 (Himani Garg) accessed apply page.", "taskName": null}
+{"timestamp": "2024-11-20T15:18:14.189185", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:14] \"GET /apply HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:14.236057", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:14] \"\u001b[36mGET /static/6w_research_logo.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:14.251672", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:14] \"\u001b[36mGET /static/profiles/default.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:17.412052", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:17] \"GET /salary_slips HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:17.459426", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:17] \"\u001b[36mGET /static/6w_research_logo.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:17.459426", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:17] \"\u001b[36mGET /static/profiles/default.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:23.142678", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:23] \"GET /welcome HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:23.221561", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:23] \"\u001b[36mGET /static/6w_research_logo.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:23.237425", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:23] \"\u001b[36mGET /static/profiles/default.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:56.409003", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:56] \"\u001b[35m\u001b[1mPOST /update_csv HTTP/1.1\u001b[0m\" 500 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:56.487298", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:56] \"GET /update_csv?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:56.503259", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:56] \"GET /update_csv?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:56.582531", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:56] \"GET /update_csv?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-20T15:18:56.677957", "levelname": "INFO", "message": "127.0.0.1 - - [20/Nov/2024 15:18:56] \"\u001b[36mGET /update_csv?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-28T10:54:19.222819", "levelname": "INFO", "message": "\u001b[31m\u001b[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.\u001b[0m\n * Running on http://127.0.0.1:5000", "taskName": null}
+{"timestamp": "2024-11-28T10:54:19.222819", "levelname": "INFO", "message": "\u001b[33mPress CTRL+C to quit\u001b[0m", "taskName": null}
+{"timestamp": "2024-11-28T10:54:19.222819", "levelname": "INFO", "message": " * Restarting with stat", "taskName": null}
+{"timestamp": "2024-11-28T10:54:21.520092", "levelname": "WARNING", "message": " * Debugger is active!", "taskName": null}
+{"timestamp": "2024-11-28T10:54:21.520092", "levelname": "INFO", "message": " * Debugger PIN: 650-317-904", "taskName": null}
+{"timestamp": "2024-11-28T10:54:30.586647", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 10:54:30] \"GET / HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-28T10:54:30.665199", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 10:54:30] \"\u001b[33mGET /captcha.css HTTP/1.1\u001b[0m\" 404 -", "taskName": null}
+{"timestamp": "2024-11-28T10:54:30.681014", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 10:54:30] \"GET /static/6w_research_logo.jpg HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-28T10:54:31.482268", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 10:54:31] \"\u001b[36mGET /static/6w_research_logo.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-28T10:54:54.391375", "levelname": "INFO", "message": "\u001b[31m\u001b[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.\u001b[0m\n * Running on http://127.0.0.1:5000", "taskName": null}
+{"timestamp": "2024-11-28T10:54:54.391375", "levelname": "INFO", "message": "\u001b[33mPress CTRL+C to quit\u001b[0m", "taskName": null}
+{"timestamp": "2024-11-28T10:54:54.391375", "levelname": "INFO", "message": " * Restarting with stat", "taskName": null}
+{"timestamp": "2024-11-28T10:54:56.770387", "levelname": "WARNING", "message": " * Debugger is active!", "taskName": null}
+{"timestamp": "2024-11-28T10:54:56.770387", "levelname": "INFO", "message": " * Debugger PIN: 650-317-904", "taskName": null}
+{"timestamp": "2024-11-28T10:55:01.948529", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 10:55:01] \"GET / HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-28T10:55:02.011508", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 10:55:02] \"\u001b[33mGET /captcha.css HTTP/1.1\u001b[0m\" 404 -", "taskName": null}
+{"timestamp": "2024-11-28T10:55:02.011508", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 10:55:02] \"\u001b[36mGET /static/6w_research_logo.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-28T10:55:05.434929", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 10:55:05] \"\u001b[36mGET /static/6w_research_logo.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-28T10:55:09.457377", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 10:55:09] \"\u001b[32mPOST / HTTP/1.1\u001b[0m\" 302 -", "taskName": null}
+{"timestamp": "2024-11-28T10:55:09.504277", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 10:55:09] \"GET /welcome HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-28T10:55:09.566731", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 10:55:09] \"\u001b[36mGET /static/6w_research_logo.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-28T10:55:09.582350", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 10:55:09] \"GET /static/profiles/default.jpg HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-28T10:55:12.062728", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 10:55:12] \"GET /welcome HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-28T10:55:12.109601", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 10:55:12] \"\u001b[36mGET /static/6w_research_logo.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-28T10:55:12.109601", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 10:55:12] \"\u001b[36mGET /static/profiles/default.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-28T10:55:12.218949", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 10:55:12] \"\u001b[36mGET /static/6w_research_logo.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-28T10:55:12.927961", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 10:55:12] \"GET /welcome HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-28T10:55:12.959203", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 10:55:12] \"\u001b[36mGET /static/6w_research_logo.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-28T10:55:12.975306", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 10:55:12] \"\u001b[36mGET /static/profiles/default.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-28T10:55:13.413778", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 10:55:13] \"\u001b[36mGET /static/6w_research_logo.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-28T11:11:32.300765", "levelname": "INFO", "message": "\u001b[31m\u001b[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.\u001b[0m\n * Running on http://127.0.0.1:5000", "taskName": null}
+{"timestamp": "2024-11-28T11:11:32.300765", "levelname": "INFO", "message": "\u001b[33mPress CTRL+C to quit\u001b[0m", "taskName": null}
+{"timestamp": "2024-11-28T11:11:32.300765", "levelname": "INFO", "message": " * Restarting with stat", "taskName": null}
+{"timestamp": "2024-11-28T11:11:35.189159", "levelname": "WARNING", "message": " * Debugger is active!", "taskName": null}
+{"timestamp": "2024-11-28T11:11:35.189159", "levelname": "INFO", "message": " * Debugger PIN: 650-317-904", "taskName": null}
+{"timestamp": "2024-11-28T11:11:36.702185", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 11:11:36] \"GET / HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-28T11:11:36.796976", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 11:11:36] \"\u001b[33mGET /captcha.css HTTP/1.1\u001b[0m\" 404 -", "taskName": null}
+{"timestamp": "2024-11-28T11:11:36.796976", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 11:11:36] \"GET /static/6w_research_logo.jpg HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-28T11:11:43.509481", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 11:11:43] \"\u001b[32mPOST / HTTP/1.1\u001b[0m\" 302 -", "taskName": null}
+{"timestamp": "2024-11-28T11:11:43.525100", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 11:11:43] \"GET /welcome HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-28T11:11:43.619715", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 11:11:43] \"\u001b[36mGET /static/6w_research_logo.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-28T11:11:43.619715", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 11:11:43] \"\u001b[36mGET /static/profiles/default.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-28T11:11:56.575010", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 11:11:56] \"GET /welcome HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-28T11:11:56.606258", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 11:11:56] \"\u001b[36mGET /static/6w_research_logo.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-28T11:11:56.606258", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 11:11:56] \"\u001b[36mGET /static/profiles/default.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-28T11:11:56.716371", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 11:11:56] \"\u001b[36mGET /static/6w_research_logo.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-28T11:14:24.551690", "levelname": "INFO", "message": "User 6WR_44 (Himani Garg) accessed apply page.", "taskName": null}
+{"timestamp": "2024-11-28T11:14:24.634809", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 11:14:24] \"GET /apply HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-28T11:14:24.692684", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 11:14:24] \"\u001b[36mGET /static/6w_research_logo.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-28T11:14:24.692684", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 11:14:24] \"\u001b[36mGET /static/profiles/default.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-28T11:15:23.156766", "levelname": "INFO", "message": "\u001b[31m\u001b[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.\u001b[0m\n * Running on http://127.0.0.1:5000", "taskName": null}
+{"timestamp": "2024-11-28T11:15:23.156766", "levelname": "INFO", "message": "\u001b[33mPress CTRL+C to quit\u001b[0m", "taskName": null}
+{"timestamp": "2024-11-28T11:15:23.156766", "levelname": "INFO", "message": " * Restarting with stat", "taskName": null}
+{"timestamp": "2024-11-28T11:15:25.475178", "levelname": "WARNING", "message": " * Debugger is active!", "taskName": null}
+{"timestamp": "2024-11-28T11:15:25.475178", "levelname": "INFO", "message": " * Debugger PIN: 650-317-904", "taskName": null}
+{"timestamp": "2024-11-28T11:15:31.237851", "levelname": "INFO", "message": "User 6WR_44 (Himani Garg) accessed apply page.", "taskName": null}
+{"timestamp": "2024-11-28T11:15:31.237851", "levelname": "INFO", "message": "Processing leave application for user 6WR_44.", "taskName": null}
+{"timestamp": "2024-11-28T11:15:31.253480", "levelname": "INFO", "message": "Parsed dates - Start: 2024-11-29 00:00:00, End: 2024-11-30 00:00:00", "taskName": null}
+{"timestamp": "2024-11-28T11:15:31.253480", "levelname": "INFO", "message": "Loaded data for validation. Checking for overlapping leaves.", "taskName": null}
+{"timestamp": "2024-11-28T11:15:31.285221", "levelname": "INFO", "message": "Saving leave application for 6WR_44.", "taskName": null}
+{"timestamp": "2024-11-28T11:15:33.190120", "levelname": "INFO", "message": "Email sent successfully.", "taskName": null}
+{"timestamp": "2024-11-28T11:15:33.205188", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 11:15:33] \"\u001b[32mPOST /apply HTTP/1.1\u001b[0m\" 302 -", "taskName": null}
+{"timestamp": "2024-11-28T11:15:33.221820", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 11:15:33] \"GET /welcome HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-28T11:15:33.300826", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 11:15:33] \"\u001b[36mGET /static/6w_research_logo.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-28T11:15:33.300826", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 11:15:33] \"\u001b[36mGET /static/profiles/default.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-28T11:16:24.257704", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 11:16:24] \"GET /welcome HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-28T11:16:24.320598", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 11:16:24] \"\u001b[36mGET /static/6w_research_logo.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-28T11:16:24.320598", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 11:16:24] \"\u001b[36mGET /static/profiles/default.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-28T11:16:24.636254", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 11:16:24] \"\u001b[36mGET /static/6w_research_logo.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-28T11:16:25.563102", "levelname": "INFO", "message": "Function 'status' accessed by Himani Garg (ID: 6WR_44, Role: director) on 2024-11-28. Last login: 2024-11-28 11:11:43.", "taskName": null}
+{"timestamp": "2024-11-28T11:16:25.578730", "levelname": "INFO", "message": "Found 1 leave applications for Himani Garg (ID: 6WR_44) after applying filters.", "taskName": null}
+{"timestamp": "2024-11-28T11:16:25.625630", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 11:16:25] \"GET /status HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-28T11:16:25.688081", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 11:16:25] \"\u001b[36mGET /static/6w_research_logo.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-28T11:16:25.688081", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 11:16:25] \"\u001b[36mGET /static/profiles/default.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-28T11:16:34.282917", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 11:16:34] \"GET /leave_balance HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-28T11:16:34.346192", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 11:16:34] \"\u001b[36mGET /static/6w_research_logo.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-28T11:16:34.361822", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 11:16:34] \"\u001b[36mGET /static/profiles/default.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-28T11:16:45.326103", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 11:16:45] \"GET /welcome HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-28T11:16:45.373383", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 11:16:45] \"\u001b[36mGET /static/6w_research_logo.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-28T11:16:45.373383", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 11:16:45] \"\u001b[36mGET /static/profiles/default.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-28T11:17:34.887981", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 11:17:34] \"GET /welcome HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2024-11-28T11:17:34.934853", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 11:17:34] \"\u001b[36mGET /static/6w_research_logo.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-28T11:17:34.934853", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 11:17:34] \"\u001b[36mGET /static/profiles/default.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2024-11-28T11:17:35.172215", "levelname": "INFO", "message": "127.0.0.1 - - [28/Nov/2024 11:17:35] \"\u001b[36mGET /static/6w_research_logo.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2025-01-02T13:31:50.860957", "levelname": "INFO", "message": "\u001b[31m\u001b[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.\u001b[0m\n * Running on http://127.0.0.1:5000", "taskName": null}
+{"timestamp": "2025-01-02T13:31:50.860957", "levelname": "INFO", "message": "\u001b[33mPress CTRL+C to quit\u001b[0m", "taskName": null}
+{"timestamp": "2025-01-02T13:31:50.860957", "levelname": "INFO", "message": " * Restarting with stat", "taskName": null}
+{"timestamp": "2025-01-02T13:31:53.252726", "levelname": "WARNING", "message": " * Debugger is active!", "taskName": null}
+{"timestamp": "2025-01-02T13:31:53.252726", "levelname": "INFO", "message": " * Debugger PIN: 650-317-904", "taskName": null}
+{"timestamp": "2025-01-02T13:32:39.829677", "levelname": "INFO", "message": "127.0.0.1 - - [02/Jan/2025 13:32:39] \"GET / HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2025-01-02T13:32:39.879408", "levelname": "INFO", "message": "127.0.0.1 - - [02/Jan/2025 13:32:39] \"\u001b[33mGET /captcha.css HTTP/1.1\u001b[0m\" 404 -", "taskName": null}
+{"timestamp": "2025-01-02T13:32:40.040382", "levelname": "INFO", "message": "127.0.0.1 - - [02/Jan/2025 13:32:40] \"GET /static/6w_research_logo.jpg HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2025-01-02T13:32:42.280726", "levelname": "INFO", "message": "127.0.0.1 - - [02/Jan/2025 13:32:42] \"\u001b[36mGET /static/6w_research_logo.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2025-01-02T13:32:52.370399", "levelname": "INFO", "message": "127.0.0.1 - - [02/Jan/2025 13:32:52] \"POST / HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2025-01-02T13:32:52.659454", "levelname": "INFO", "message": "127.0.0.1 - - [02/Jan/2025 13:32:52] \"\u001b[33mGET /captcha.css HTTP/1.1\u001b[0m\" 404 -", "taskName": null}
+{"timestamp": "2025-01-02T13:32:52.721319", "levelname": "INFO", "message": "127.0.0.1 - - [02/Jan/2025 13:32:52] \"\u001b[36mGET /static/6w_research_logo.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2025-01-02T13:33:38.300719", "levelname": "INFO", "message": "127.0.0.1 - - [02/Jan/2025 13:33:38] \"\u001b[32mPOST / HTTP/1.1\u001b[0m\" 302 -", "taskName": null}
+{"timestamp": "2025-01-02T13:33:38.356129", "levelname": "INFO", "message": "127.0.0.1 - - [02/Jan/2025 13:33:38] \"GET /welcome HTTP/1.1\" 200 -", "taskName": null}
+{"timestamp": "2025-01-02T13:33:38.530837", "levelname": "INFO", "message": "127.0.0.1 - - [02/Jan/2025 13:33:38] \"\u001b[36mGET /static/6w_research_logo.jpg HTTP/1.1\u001b[0m\" 304 -", "taskName": null}
+{"timestamp": "2025-01-02T13:33:38.762918", "levelname": "INFO", "message": "127.0.0.1 - - [02/Jan/2025 13:33:38] \"GET /static/profiles/default.jpg HTTP/1.1\" 200 -", "taskName": null}

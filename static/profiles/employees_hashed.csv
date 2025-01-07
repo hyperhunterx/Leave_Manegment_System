@@ -1,0 +1,74 @@
+Employee ID,employee_name,doj,first_probation,second_probation,designation,department,employee_email,employee_password,manager_email,manager_password,role,team_members,profile_photo,uan,login_password,Normalized Employee ID
+6WR_01,Angela Khattar,01-01-2020,,,Developer,Marketing,rohitjain1570@gmail.com,bkah ndrf shvn dghg,rohitjain1570@gmail.com,bkah ndrf shvn dghg,hr,,profiles/default.jpg,,6WR_01_password123,1
+6WR_03,Ravi Bhandari,01-05-2024,,,okay,Marketing,rohitjain1570@gmail.com,bkah ndrf shvn dghg,rohitjain1570@gmail.com,bkah ndrf shvn dghg,employee,,profiles/default.jpg,,6WR_03_password,3
+6WR_05,Aanchal Kukreja,01-01-2020,,,Manager,Design,,,,,employee,6WR_196,profiles/AANCHAL_KUKREJA.jpg,,6WR_05_password,5
+6WR_11,Nitesh Kumar,01-01-2020,,,Developer,Marketing,manishpant30@gmail.com,sxyt hywk emdg hwki,manishpant30@gmail.com,sxyt hywk emdg hwki,manager,"6WR_14,6WR_31,6WR_86,6WR_01",profiles/NITESH.jpg,,6WR_11_password123,11
+6WR_14,Kriti Shukla,01-01-2020,,,Manager,Marketing,rohitjain1570@gmail.com,bkah ndrf shvn dghg,rohitjain1570@gmail.com,bkah ndrf shvn dghg,manager,,profiles/KRITI_SHUKLA.jpg,,6WR_14_password,14
+6WR_31,Dhaval Chaurasia ,01-01-2020,,,Analyst,Sales,manishpant30@gmail.com,sxyt hywk emdg hwki,manish@6wresearch.com,sxyt hywk emdg hwki,director,,profiles/DHAVAL.jpg,,rohit,31
+6WR_44,Himani Garg,01-01-2020,,,Designer,Design,himani@6wresearch.com,,,,employee,,profiles/default.jpg,,6WR_44_password,44
+6WR_46,Swati Dhingra,01-01-2020,,,Manager,HR,swati.dhingra@6wresearch.com,,,,employee,,profiles/default.jpg,,6WR_46_password,46
+6WR_63,Shubham Deep ,01-01-2020,,,Designer,Sales,manishpant30@gmail.com,sxyt hywk emdg hwki,manishpant30@gmail.com,,employee,,profiles/SHUBHAM_DEEP.jpg,,6WR_63_password,63
+6WR_65,Surya Kant,01-01-2020,,,Developer,Marketing,suryakant@6wresearch.com,,,,employee,,profiles/SURYA_KANT.jpg,,6WR_65_password,65
+6WR_66,Vasudha Kaushik,01-01-2020,,,Analyst,Marketing,vasudha@6wresearch.com,,,,employee,,profiles/VASUDHA.jpg,,6WR_66_password,66
+6WR_67,Saurav Kumar Singh,01-01-2020,,,Engineer,HR,saurav@6wresearch.com,,,,employee,,profiles/default.jpg,,6WR_67_password,67
+6WR_70,Parth Taneja ,01-01-2020,,,Manager,Sales,parth@6wresearch.com,,,,employee,,profiles/default.jpg,,6WR_70_password,70
+6WR_80,Swati Tomar,01-01-2020,,,Analyst,IT,swati.tomar@6wresearch.com,,,,employee,,profiles/SWATI_TOMAR.jpg,,6WR_80_password,80
+6WR_83,Sumit Sagar,01-01-2020,,,Engineer,IT,sumit@6wresearch.com,,,,employee,,profiles/SUMIT_SAGAR.jpg,,6WR_83_password,83
+6WR_86,Sachin Kumar Rai,01-01-2020,,,Designer,IT,manishpant30@gmail.com,sxyt hywk emdg hwki,manishpant30@gmail.com,sxyt hywk emdg hwki,employee,,profiles/default.jpg,,6WR_86_password,86
+6WR_88,Subham Padhi,01-01-2020,,,Designer,Design,subham@6wresearch.com,,,,employee,,profiles/SUBHAM.jpg,,6WR_88_password,88
+6WR_105,Vansh Vinarm Saxena,01-01-2020,,,Designer,HR,vansh@6wresearch.com,,,,employee,,profiles/VANSH.jpg,,6WR_105_password,105
+6WR_106,Abhishek Raj,01-01-2020,,,Designer,HR,abhishek.raj@6wresearch.com,,,,employee,,profiles/default.jpg,,6WR_106_password,106
+6WR_113,Harsha Bhatt,01-01-2020,,,Designer,HR,harsha@6wresearch.com,,,,employee,,profiles/HARSHA.jpg,,6WR_113_password,113
+6WR_114,Prakhar Dixit,01-01-2020,,,Designer,HR,prakhar@6wresearch.com,,,,employee,,profiles/default.jpg,,6WR_114_password,114
+6WR_118,Sakshi Jain,01-01-2020,,,Analyst,Design,sakshi@6wresearch.com,,,,employee,,profiles/SAKSHI_JAIN.jpg,,6WR_118_password,118
+6WR_125,Arshmeet Kaur,01-01-2020,,,Designer,IT,arshmeet@6wresearch.com,,,,employee,,profiles/ARSHMEET.jpg,,6WR_125_password,125
+6WR_128,Yahya Aslam,01-01-2020,,,Developer,Sales,yahya@6wresearch.com,,,,employee,,profiles/YAHYA.jpg,,6WR_128_password,128
+6WR_134,Nihal Ubriani,01-01-2020,,,Engineer,HR,nihal@6wresearch.com,,,,employee,,profiles/NIHAL.jpg,,6WR_134_password,134
+6WR_138,Abhinav Sharma ,19-09-2024,,,Developer,Marketing,abhinav@6wresearch.com,,,,employee,,profiles/ABHINAV.jpg,,6WR_138_password,138
+6WR_141,Kapil Kumar Pal,01-01-2020,,,Analyst,Design,kapil@6wresearch.com,,,,employee,,profiles/KAPIL_KUMAR.jpg,,6WR_141_password,141
+6WR_142,Moksha Kaushik,01-01-2020,,,Designer,HR,moksha@6wresearch.com,,,,employee,,profiles/default.jpg,,6WR_142_password,142
+6WR_143,Ronit Samuel,01-01-2020,,,Designer,Marketing,ronit@6wresearch.com,,,,employee,,profiles/RONIT.jpg,,6WR_143_password,143
+6WR_147,Tanmay Vashishth,01-01-2020,,,Manager,Marketing,tanmay@6wresearch.com,,,,employee,,profiles/TANMAY.jpg,,6WR_147_password,147
+6WR_148,Sonali Gupta,01-01-2020,,,Engineer,Marketing,sonali@6wresearch.com,,,,employee,,profiles/SONALI.jpg,,6WR_148_password,148
+6WR_149,Pallavi Puja,01-01-2020,,,Engineer,HR,pallavi@6wresearch.com,,,,employee,,profiles/PALLAVI_PUJA.jpg,,6WR_149_password,149
+6WR_154,Anjali Gupta,01-01-2020,,,Manager,Design,anjali@6wresearch.com,,,,employee,,profiles/default.jpg,,6WR_154_password,154
+6WR_156,Vasu Joshi,01-01-2020,,,Engineer,Marketing,vasu@6wresearch.com,,,,employee,,profiles/VASU_JOSHI.jpg,,6WR_156_password,156
+6WR_157,Aashutosh Chauhan,01-01-2020,,,Developer,Marketing,aashutosh@6wresearch.com,,,,employee,,profiles/default.jpg,,6WR_157_password,157
+6WR_158,Nisha,01-01-2020,,,Analyst,HR,nisha@6wresearch.com,,,,employee,,profiles/default.jpg,,6WR_158_password,158
+6WR_159,Mayank Kanojia,01-01-2020,,,Developer,Sales,mayank@6wresearch.com,,,,employee,,profiles/MAYANK.jpg,,6WR_159_password,159
+6WR_160,Kumod Sharma,01-01-2020,,,Engineer,Sales,kumod@6wresearch.com,,,,employee,,profiles/KUMOD.jpg,,6WR_160_password,160
+6WR_166,Shivani Bansal,01-01-2020,,,Manager,Marketing,shivani@6wresearch.com,,,,employee,,profiles/SHIVANI_BANSAL.jpg,,6WR_166_password,166
+6WR_167,Priya,01-01-2020,,,Analyst,HR,priya@6wresearch.com,,,,employee,,profiles/PRIYA.jpg,,6WR_167_password,167
+6WR_168,Khushi Uniyal,01-01-2020,,,Designer,Design,khushi@6wresearch.com,,,,employee,,profiles/KHUSHI.jpg,,6WR_168_password,168
+6WR_169,Manish Pant,01-01-2020,,,Manager,Design,manishpant30@gmail.com,sxyt hywk emdg hwki,manishpant30@gmail.com,sxyt hywk emdg hwki,employee,,profiles/default.jpg,,6WR_169_password,169
+6WR_172,Ayushi Bhardwaj,01-01-2020,,,Manager,Sales,ayushi@6wresearch.com,,,,employee,,profiles/AYUSHI_BHARDWAJ.jpg,,6WR_172_password,172
+6WR_173,Nikhil Kala,01-01-2020,,,Analyst,IT,nikhil.kala@6wresearch.com,,,,employee,,profiles/default.jpg,,6WR_173_password,173
+6WR_175,Rishil Gupta,01-01-2020,,,Developer,IT,rishil@6wresearch.com,,,,employee,,profiles/default.jpg,,6WR_175_password,175
+6WR_177,Mehak Gupta,01-01-2020,,,Designer,Design,mehak@6wresearch.com,,,,employee,,profiles/default.jpg,,6WR_177_password,177
+6WR_178,Shyamalika Das,01-01-2020,,,Engineer,Marketing,shyamalika@6wresearch.com,,,,employee,,profiles/default.jpg,,6WR_178_password,178
+6WR_181,Chhaya Gangwar,01-01-2020,,,Analyst,Marketing,chhaya@6wresearch.com,,,,employee,,profiles/CHHAYA.jpg,,6WR_181_password,181
+6WR_182,Muskan Mahajan,01-01-2020,,,Designer,Sales,muskan@6wresearch.com,,,,employee,,profiles/MUSKAN.jpg,,6WR_182_password,182
+6WR_183,Sherry ,01-01-2020,,,Analyst,HR,sherry@6wresearch.com,,,,employee,,profiles/SHERRY.jpg,,6WR_183_password,183
+6WR_184,Punima Pathnaik,01-01-2020,,,Manager,HR,purnima@6wresearch.com,,,,employee,,profiles/default.jpg,,6WR_184_password,184
+6WR_185,Ishita Sahu,01-01-2020,,,Manager,Sales,ishita@6wresearch.com,,,,employee,,profiles/ISHITA_SAHU.jpg,,6WR_185_password,185
+6WR_186,Jatin,01-01-2020,,,Designer,HR,jatin@6wresearch.com,,,,employee,,profiles/JATIN .jpg,,6WR_186_password,186
+6WR_187,Rhythm Bhatnagar,01-01-2020,,,Developer,HR,rhythm@6wresearch.com,,,,employee,,profiles/RHYTHM_BHATNAGAR.jpg,,6WR_187_password,187
+6WR_188,Harleen Kaur,01-01-2020,,,Manager,Design,harleen@6wresearch.com,,,,employee,,profiles/HARLEEN_KAUR.jpg,,6WR_188_password,188
+6WR_189,Ishu Dhani,01-01-2020,,,Engineer,IT,ishu@6wresearch.com,,,,employee,,profiles/ISHU_DHANI.jpg,,6WR_189_password,189
+6WR_190,Aryan Srivastava,01-01-2020,,,Analyst,HR,aryan@6wresearch.com,,,,employee,,profiles/ARYAN.jpg,,6WR_190_password,190
+6WR_191,Palak Jaiswal,01-01-2020,,,Analyst,Marketing,palak@6wresearch.com,,,,employee,,profiles/default.jpg,,6WR_191_password,191
+6WR_192,Rahul Choudhary,01-01-2020,,,Designer,HR,rahul@6wresearch.com,,,,employee,,profiles/RAHUL_CHOUDHARY.jpg,,6WR_192_password,192
+6WR_193,Komal Agarwal,01-01-2020,,,Developer,Marketing,komal@6wresearch.com,,,,employee,,profiles/KOMAL_AGARWAK.jpg,,6WR_193_password,193
+6WR_194,Kartik Barrot,01-01-2020,,,Analyst,Design,kartik@6wresearch.com,,,,employee,,profiles/KARTIK_BARROT.jpg,,6WR_194_password,194
+6WR_195,Sahiba Kaur,01-01-2020,,,Engineer,Sales,sahiba@6wresearch.com,,,,employee,,profiles/default.jpg,,6WR_195_password,195
+6WR_196,Anuj Mehrotra,01-01-2020,,,Analyst,Design,manishpant30@gmail.com,sxyt hywk emdg hwki,manishpant30@gmail.com,sxyt hywk emdg hwki,employee,,profiles/ANUJ_MEHROTRA.jpg,,6WR_196_password,196
+6WR_199,Anuj Mehrotra,01-01-2020,,,Analyst,Design,manishpant30@gmail.com,sxyt hywk emdg hwki,manishpant30@gmail.com,sxyt hywk emdg hwki,employee,,profiles/ANUJ_MEHROTRA.jpg,,6WR_199_password,199
+6WR_232323,OKay,29-06-2024,,,ASDad,Data Analytics,sddsds@6wresearch.com,sdsdsdsd,manish@6wresearch.com,password_data_analytics,employee,,profiles/6w_research_logo.jpg,,6WR_232323_password,232323
+6WR_23232323232,OKay,15-06-2024,,,ASDad,Market Research,manishpant30@gmail.com@6wresearch.com,asdasda,dhaval@6wresearch.com,password_market_research,employee,,profiles/6w_research_logo.jpg,,6WR_23232323232_password,23232323232
+6WR_9810,sdasa,22-06-2024,,,adada,Market Research,asasas@6wresearch.com,asasas,dhaval@6wresearch.com,password_market_research,employee,,profiles/6w_research_logo.jpg,,6WR_9810_password,9810
+6WR_6WR_34,xvcsdcd,15-06-2024,,,sdvsdvds,Market Research,6WR_31@6wresearch.com,6WR_31_password,dhaval@6wresearch.com,password_market_research,employee,,profiles/Abstract2.jpg,,6WR_6WR_34_password,34
+6WR_test,faketest,18-06-2024,,,sweeper,Digital Marketing,6WR_31@6wresearch.com,6WR_31_password,nitesh@6wresearch.com,password_digital_marketing,employee,,profiles/Abstract2.jpg,,,test
+6WR_9999,jhon,28-06-2024,,,cleaner,Digital Marketing,6WR_31@6wresearch.com,6WR_31_passwordxyz,nitesh@6wresearch.com,password_digital_marketing,employee,,profiles/JPEG_20210202_182054_2385754587970643073.jpg,,6WR_9999_password,9999
+6WR_45545454,123123,26-06-2024,24-09-2024,23-12-2024,123123,Data Analytics,21312312@6wresearch.com,13123131,manish@6wresearch.com,password_data_analytics,employee,,6w_research_logo.jpg,,6WR_45545454_password,45545454
+6WR_12312,test,26-06-2024,24-09-2024,23-12-2024,sweeper,Data Analytics,6WR_31@6wresearch.com,rohit,manish@6wresearch.com,password_data_analytics,Not Confirmed,,Abstract2.jpg,,6WR_12312_password,12312
+6WR_kvgj ,hgmn,27-06-2024,25-09-2024,24-12-2024,mhv gn ,Data Analytics,6WR_31@6wresearch.com,rohit,manish@6wresearch.com,password_data_analytics,probation,,MY_PBL_Synopsis_On_Cryptocurrency.pdf,,6WR_kvgj _password,

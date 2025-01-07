@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reimbursement Denial Notification</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: white; margin: 0; padding: 0;">
+    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color: #f3f2f0; padding: 50px 0;">
+        <tr>
+            <td align="center">
+                <table role="presentation" width="600" cellspacing="0" cellpadding="0" border="0" style="background-color: #ffffff; padding: 20px; border-radius: 0; max-width: 600px;">
+                    <tr>
+                        <td align="center" style="background-color: #ffffff; padding: 20px;">
+                            <h3 style="margin: 0; color: black; font-size: 24px;">Reimbursement Denial Notification</h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 20px;">
+                            <p>Dear <strong>{{ employee_name }}</strong>,</p>
+                            <p>We regret to inform you that your reimbursement request has been denied.</p>
+                            <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                                <tr>
+                                    <td style="padding: 10px; background-color: #f9f9f9; border-radius: 5px;">
+                                        <strong>Reimbursement Type:</strong> {{ reimbursement_type }}
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 10px; background-color: #f9f9f9; border-radius: 5px;">
+                                        <strong>Amount:</strong> {{ amount }}
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 10px; background-color: #f9f9f9; border-radius: 5px;">
+                                        <strong>Reason:</strong> {{ reason }}
+                                    </td>
+                                </tr>
+                            </table>
+                            <p>Thank you,<br>6WResearch HR Team</p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

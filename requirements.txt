@@ -1,0 +1,14 @@
+Flask
+Flask-SocketIO
+pandas
+python-dateutil
+openpyxl
+docx
+docx2pdf
+num2words
+xhtml2pdf
+requests
+python-docx
+reportlab
+SMTPEmail
+secure-smtplib
